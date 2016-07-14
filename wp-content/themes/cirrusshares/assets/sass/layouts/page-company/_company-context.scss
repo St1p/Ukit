@@ -1,0 +1,26 @@
+.company-wrap {
+  padding-top: 70px;
+  h1 {
+    margin: 20px 0 10px 0;
+    font-weight: bold;
+    @include standart-font (28px);
+  }
+}
+.company-content {
+  margin: 10px 0 20px 0;
+  p {
+    margin: 0;
+    @include standart-font (14px);
+    a {
+      text-decoration: underline;
+      @include standart-font (14px);
+    }
+  }
+
+}
+
+.alignleft {
+  text-align: center;
+  width: 135px;
+  height: 60px;
+}

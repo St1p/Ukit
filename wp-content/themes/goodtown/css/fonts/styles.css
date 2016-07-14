@@ -1,0 +1,90 @@
+
+@font-face {
+  font-family:'Raleway-Regular';
+  src: url('Raleway-Regular_gdi.eot');
+  src: url('Raleway-Regular_gdi.eot?#iefix') format('embedded-opentype'),
+  url('Raleway-Regular_gdi.woff') format('woff'),
+  url('Raleway-Regular_gdi.ttf') format('truetype'),
+  url('Raleway-Regular_gdi.svg#Raleway-Regular') format('svg');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-007E;
+}
+@font-face {
+  font-family:'RobotoSlab-Light';
+  src: url('RobotoSlab-Light_gdi.eot');
+  src: url('RobotoSlab-Light_gdi.eot?#iefix') format('embedded-opentype'),
+  url('RobotoSlab-Light_gdi.woff') format('woff'),
+  url('RobotoSlab-Light_gdi.ttf') format('truetype'),
+  url('RobotoSlab-Light_gdi.svg#RobotoSlab-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+000D-25CA;
+}
+
+@font-face {
+  font-family:'Raleway-Heavy';
+  src: url('Raleway-Heavy_gdi.eot');
+  src: url('Raleway-Heavy_gdi.eot?#iefix') format('embedded-opentype'),
+  url('Raleway-Heavy_gdi.woff') format('woff'),
+  url('Raleway-Heavy_gdi.ttf') format('truetype'),
+  url('Raleway-Heavy_gdi.svg#Raleway-Heavy') format('svg');
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+000D-2212;
+}
+
+@font-face {
+  font-family:'Montserrat-Bold';
+  src: url('Montserrat-Bold_gdi.eot');
+  src: url('Montserrat-Bold_gdi.eot?#iefix') format('embedded-opentype'),
+  url('Montserrat-Bold_gdi.woff') format('woff'),
+  url('Montserrat-Bold_gdi.ttf') format('truetype'),
+  url('Montserrat-Bold_gdi.svg#Montserrat-Bold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-25CA;
+}
+
+@font-face {
+  font-family:'Raleway-Bold';
+  src: url('Raleway-Bold_gdi.eot');
+  src: url('Raleway-Bold_gdi.eot?#iefix') format('embedded-opentype'),
+  url('Raleway-Bold_gdi.woff') format('woff'),
+  url('Raleway-Bold_gdi.ttf') format('truetype'),
+  url('Raleway-Bold_gdi.svg#Raleway-Bold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2212;
+}
+
+@font-face {
+  font-family:'RobotoSlab-Bold';
+  src: url('RobotoSlab-Bold_gdi.eot');
+  src: url('RobotoSlab-Bold_gdi.eot?#iefix') format('embedded-opentype'),
+  url('RobotoSlab-Bold_gdi.woff') format('woff'),
+  url('RobotoSlab-Bold_gdi.ttf') format('truetype'),
+  url('RobotoSlab-Bold_gdi.svg#RobotoSlab-Bold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+000D-25CA;
+}
+
+@font-face {
+  font-family:'BebasNeueCyrillic-Regular';
+  src: url('BebasNeueCyrillic_gdi.eot');
+  src: url('BebasNeueCyrillic_gdi.eot?#iefix') format('embedded-opentype'),
+  url('BebasNeueCyrillic_gdi.woff') format('woff'),
+  url('BebasNeueCyrillic_gdi.ttf') format('truetype'),
+  url('BebasNeueCyrillic_gdi.svg#BebasNeueCyrillic-Regular') format('svg');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-2122;
+}

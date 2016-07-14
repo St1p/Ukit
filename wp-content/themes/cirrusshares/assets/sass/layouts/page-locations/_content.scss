@@ -1,0 +1,38 @@
+.locations-img {
+  img {
+    width: 100%;
+    height: 260px;
+  }
+}
+.location-block {
+  margin: 40px 0;
+  text-align: center;
+
+  h1 {
+    color: #605E5E;
+    margin: 0px 0 20px 0;
+    @include standart-font (57px);
+  }
+
+  .location-content {
+
+    p {
+      color: #605E5E;
+      margin: 0;
+      @include standart-font (12px);
+
+      &:first-child {
+        font-weight: bold;
+        @include standart-font (16px);
+      }
+
+      &:last-child {
+        margin-top: 10px;
+        font-weight: bold;
+        @include standart-font (13px);
+      }
+
+    }
+  }
+
+}

@@ -1,0 +1,31 @@
+.aircraft-title {
+  margin: 80px 0px 5px 15px;
+    font-weight: bold;
+    @include standart-font (28px);
+
+}
+
+.aircraft-content {
+
+  p {
+    @include standart-font (14px);
+  }
+}
+.aircraft-img-left {
+  margin: 10px 0;
+  text-align: right;
+  img {
+    width: 90%;
+    height: 360px;
+    object-fit: cover;
+  }
+}
+.aircraft-img-rigt {
+  margin: 10px 0;
+  text-align: left;
+  img {
+    width: 90%;
+    height: 360px;
+    object-fit: cover;
+  }
+}

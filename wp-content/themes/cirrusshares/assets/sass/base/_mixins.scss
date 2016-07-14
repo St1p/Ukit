@@ -1,0 +1,5 @@
+@mixin  standart-font ($size) {
+  font-size: $size;
+  font-family: $standart-font;
+  color: $mainColor;
+}
