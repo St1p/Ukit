@@ -54,8 +54,8 @@ function saveProductInDB() {
         var data = { 'costumerData': costumerData , 'ordersArray' : ordersArray};
        
     $.ajax({
-        url : 'save.php',
-        type: 'GET',
+        url : 'http://myprogect/basket/',
+        type: 'POST',
         dataType: "json",
         async: false,
         /*data: "name="+array, "form="+form,*/

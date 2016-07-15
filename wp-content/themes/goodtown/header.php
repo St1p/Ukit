@@ -118,9 +118,9 @@
 					<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 ">
 						<div class="header-menu">
 							<ul>
-								<li><a href="#">про компанію</a></li>
-								<li><a href="#">Новини</a></li>
-								<li><a href="#">продукти</a></li>
+								<li><a href="/">про компанію</a></li>
+								<li><a href="/">Новини</a></li>
+								<li><a href="products/">продукти</a></li>
 								<li><a href="#">нaші партнери</a></li>
 								<li><a href="#">контакти</a></li>
 								<li><a href="#">замовити</a></li>
