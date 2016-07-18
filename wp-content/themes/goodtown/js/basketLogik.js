@@ -49,7 +49,6 @@ function removeProduct(obg) {
 
 function saveProductInDB() {
         var ordersArray = ''+ JSON.stringify(productArray);
-        //var data = JSON.stringify(productArray[0]);
         var costumerData = $("#sendForm").serialize();
         var data = { 'costumerData': costumerData , 'ordersArray' : ordersArray};
        

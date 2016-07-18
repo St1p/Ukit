@@ -6,6 +6,7 @@ $dbConnections =  new LocalPdo();
 //CostumerData
 $params = array();
 parse_str($_GET['costumerData'], $params);
+
 $stmt = $dbConnections->prepare("INSERT INTO customers (customer_name, customers_email, customers_phone )
  VALUES ( ?, ?, ?) ");
 $stmt->execute(array($params ['name'] , $params ['email'] , $params ['phone']));
