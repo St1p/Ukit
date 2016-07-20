@@ -51,12 +51,11 @@ function ukit_get_post_data()
     global $wpdb;
     if (isset($_POST['costumerData'])) {
 
+        //saveCostumerData
         $params = array();
         parse_str($_POST['costumerData'], $params);
-
-        //saveCostumerData
-       $wpdb->query( $wpdb->prepare(
-        "INSERT INTO wp_ukit_costomers (customer_name, customers_email, customers_phone) VALUES ( %s, %s, %d)",
+        $wpdb->query( $wpdb->prepare(
+        "INSERT INTO wp_ukit_costomers (customer_name, customers_email, customers_phone) VALUES ( %s, %s, %s)",
         array( $params ['name'] , $params ['email'] , $params ['phone'])));
         $costumerId = $wpdb->insert_id;
 
@@ -73,7 +72,7 @@ function ukit_get_post_data()
                 $formData [$count] ['valueP'],
                $costumerId )));
         }
-        var_dump( $maxCout);
+        echo  json_encode('ok');
         die();
     }
 }
@@ -85,6 +84,70 @@ function ukit_add_admin_huk ()
 function ukit_create_admin_page()
 {
     global $wpdb;
-    $newtable = $wpdb->get_results( "SELECT * FROM wp_ukit_costomers, wp_ukit_orders WHERE wp_ukit_costomers.customer_id = wp_ukit_orders.customer_id" );
-  var_dump($newtable);
+
+   /*
+    // counting goods
+   $newtable = $wpdb->get_results( "SELECT SUM(product_prise) AS product_prise FROM wp_ukit_orders;" );
+     print_r($newtable[0]->product_prise);*/
+
+    $newtable = $wpdb->get_results( "SELECT * FROM wp_ukit_costomers;");
+    //$product = $wpdb->get_results( "SELECT * FROM wp_ukit_costomers, wp_ukit_orders  WHERE wp_ukit_costomers.customer_id = wp_ukit_orders.customer_id;" );
+
+    echo "
+ <div class=\"admin-wraper\">
+    <div class=\"container\">
+
+            ";
+    foreach($newtable as $value) {
+
+        $products = $wpdb->get_results("SELECT * FROM  wp_ukit_orders  WHERE  " . $value->customer_id . " = wp_ukit_orders.customer_id;");
+
+        echo "
+                   <div class=\"row \">
+                    <div class=\"col-xs-12 col-sm-12 col-md-4 \">
+                        <div class='data-of-costumer'>
+                         <h2><span>Імя :</span> <span>$value->customer_name</span></h2>
+                         <h2><span>Email :</span> <span>$value->customers_email</span></h2>
+                         <h2><span>Телефон :</span><span>$value->customers_phone</span></h2>
+                          <h2><span>Дата :</span><span>$value->customers_time_order</span></h2>
+                        </div>
+                    </div>
+
+                    <div class=\"col-xs-12 col-sm-12 col-md-8 \">
+                    <div class='admin-table'>
+                    <table class=\"table table-striped\">
+                     <thead>
+                     <tr>
+                     <th>Назва товару</th>
+                     <th>Ціна</th>
+                     <th>Тара</th>
+                     </tr>
+                     </thead>
+                     <tbody>
+                     ";
+
+
+            foreach($products as $product) {
+
+                echo "
+
+                     <tr>
+                     <td>" . $product->product_name . " </td>
+                     <td>" .$product->product_prise . "</td>
+                     <td>" .$product->product_value . "</td>
+                     </tr>
+                     ";
+                     }
+
+                    echo "
+                                     </tbody>
+                                     </table>
+                                            </div>
+                                              </div>
+                                              </div> ";
+
+
+    }
+    echo "  </div>
+                   </div>  ";
 }

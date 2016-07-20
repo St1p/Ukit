@@ -1,0 +1,29 @@
+@import "bootstrap/bootstrap.css";
+@import "bootstrap/bootstrap-grid-3.3.1.min.css";
+
+.admin-wraper > .container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.admin-wraper > .container .row {
+    margin-top: 40px;
+    border-bottom: 1px rgba(211, 207, 7, 0.92) solid;
+}
+
+.admin-table {
+    text-align: center;
+}
+
+.data-of-costumer span {
+    display: inline-block;
+    font-size: 13px;
+}
+.data-of-costumer span:nth-child(1){
+    font-size: 15px;
+    color: #d54e21;
+    width: 30%;
+}
+.data-of-costumer h2 {
+    margin: 0;
+    font-size: 17px;
+}

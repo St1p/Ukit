@@ -54,3 +54,62 @@ $('.brands-slider').slick({
 	slidesToScroll: 1,
 	arrows: false
 });
+
+/*Form validation*/
+$(document).on('click', 'input:submit', function (e) {
+	e.preventDefault();
+	var obj = $(this).closest('form'),
+		url = obj.attr("action"),
+		button = obj.children(".form-submit"),
+		buttonText = button.val(),
+		err = 0;
+
+	obj.find(".form-control").each(function () {
+		var re = new RegExp($(this).attr('pattern'));
+
+		if ($(this).val() == "") {
+			$(this).addClass("error-input");
+		} else if (!re.test($(this).val())) {
+			$(this).addClass("error-input");
+		} else {
+			$(this).removeClass("error-input");
+		}
+	});
+
+	//Send form  id="orderForm"
+	err = $(".error-input").length;
+	if (err == 0) {
+			var ordersArray = '' + JSON.stringify(productArray);
+			var costumerData = $("#sendForm").serialize();
+			var data = {'costumerData': costumerData, 'ordersArray': ordersArray};
+
+			$.ajax({
+				url: 'http://myprogect/basket/',
+				type: 'POST',
+				dataType: "json",
+				async: false,
+				/*data: "name="+array, "form="+form,*/
+				/* data: "name="+array,*/
+				data: data,
+
+
+				success: function (msg) {
+					var result = '' + msg.text;
+
+					alert(msg);
+					/*  if(result == "goodReqest") {
+					 localStorage.clear();
+					 alert("Ваше замовлення прийняте");
+					 location.reload();
+					 }if(result == "BaskedIsEmpty") {
+					 alert("Заповніть Корзину");
+					 }else {
+					 alert("Афториризуйтесь")
+					 }*/
+				}
+			});
+			// location.href='/save.php'
+		} else  {
+			alert('false');
+		}
+});

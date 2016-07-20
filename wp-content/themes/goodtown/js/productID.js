@@ -35,14 +35,27 @@ var productSelection = function(name) {
     $('.'+name).css({'visibility':'visible','display':'block'});
 
 };
+$(document).ready(function(){
+    $('#getProductName').click(function(){
+      //  var name =  $(this).parent('.button-block').find('.img-block ');
+        var obg =  $(this).parents();
+        var name = obg[1].find('.img-block span');
 
-var getProductName = function(name) {
+        alert(name.text());
+        /*var name =  $('.text-block').attr( "id");
+        localStorage.setItem('nameProduct',name);
+        localStorage.setItem('productPrice',25);*/
+
+    });
+});
+
+/*var getProductName = function(name) {
     var result;
 
     localStorage.setItem('nameProduct',name);
     localStorage.setItem('productPrice',25);
 
- /*   $.ajax({
+ /!*   $.ajax({
         url : 'getPriseFromInternet',
         type: 'GET',
         async: false,
@@ -54,10 +67,10 @@ var getProductName = function(name) {
             localStorage.setItem('productPrice',result);
 
         }
-    });*/
+    });*!/
 
-/*    return location.href="/orderProduct";*/
-};
+/!*    return location.href="/orderProduct";*!/
+};*/
 
 function getMoreHeight (name) {
 

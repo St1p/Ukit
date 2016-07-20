@@ -47,37 +47,3 @@ function removeProduct(obg) {
 }
 
 
-function saveProductInDB() {
-        var ordersArray = ''+ JSON.stringify(productArray);
-        var costumerData = $("#sendForm").serialize();
-        var data = { 'costumerData': costumerData , 'ordersArray' : ordersArray};
-       
-    $.ajax({
-        url : 'http://myprogect/basket/',
-        type: 'POST',
-        dataType: "json",
-        async: false,
-        /*data: "name="+array, "form="+form,*/
-       /* data: "name="+array,*/
-        data: data,
-
-
-        success: function (msg) {
-                var result = '' + msg.text;
-
-                alert(msg);
-              /*  if(result == "goodReqest") {
-                    localStorage.clear();
-                    alert("Ваше замовлення прийняте");
-                    location.reload();
-                }if(result == "BaskedIsEmpty") {
-                    alert("Заповніть Корзину");
-                }else {
-                    alert("Афториризуйтесь")
-                }*/
-            }
-        });
-   // location.href='/save.php'
-
-}
-

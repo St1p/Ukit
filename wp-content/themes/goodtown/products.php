@@ -63,7 +63,6 @@
                 <span> ANGUCEL KO-919 </span>
                 <img src="/wp-content/themes/goodtown/img/botel.jpg" >
               </div>
-
               <div id="KO-919" class="text-block">
                 <h2>Кольмануюча добавка проти висолів</h2>
                 <h3>Використання:</h3>
@@ -165,9 +164,11 @@
                 </strong></p>
 
               </div>
-          <div class="button-block">
+              <div class="button-block">
 
-              <button type='button' data-toggle="modal" data-target=".modal-order" onClick='getProductName("KO-919")' >Замовити</button>
+          <!--  <button id="getProductName" type='button' data-toggle="modal" data-target=".modal-order"  onClick='getProductName("KO-919")'>Замовити</button>-->
+
+            <button id="getProductName" type='button'>Замовити</button>
             <button type='button' onClick='getMoreHeight("KO-919")'>Детальніше</button>
 
             <div class="modal fade modal-order" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
