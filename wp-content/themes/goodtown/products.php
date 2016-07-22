@@ -165,13 +165,10 @@
 
               </div>
               <div class="button-block">
-
-          <!--  <button id="getProductName" type='button' data-toggle="modal" data-target=".modal-order"  onClick='getProductName("KO-919")'>Замовити</button>-->
-
-            <button id="getProductName" type='button'>Замовити</button>
-            <button type='button' onClick='getMoreHeight("KO-919")'>Детальніше</button>
-
-            <div class="modal fade modal-order" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <button class="getProductName" data-toggle="modal" data-target=".modal-order" type='button'>Замовити</button>
+               <!-- <button type='button' onClick='getMoreHeight("KO-919")'>Детальніше</button>-->
+                <button type='button' class="getMoreHight">Детальніше</button>
+                <div class="modal fade modal-order" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
               <div class="modal-dialog modal-lg">
                 <div class="modal-content">
 
@@ -252,9 +249,7 @@
                 </div>
               </div>
             </div>
-
-          </div>
-
+              </div>
         </div>
       </div>
 

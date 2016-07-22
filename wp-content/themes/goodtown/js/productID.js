@@ -35,17 +35,27 @@ var productSelection = function(name) {
     $('.'+name).css({'visibility':'visible','display':'block'});
 
 };
+
+//save nameOfProduct;
 $(document).ready(function(){
-    $('#getProductName').click(function(){
-      //  var name =  $(this).parent('.button-block').find('.img-block ');
-        var obg =  $(this).parents();
-        var name = obg[1].find('.img-block span');
+    $('.getProductName').click(function(){
+        var nameOfProduct = $(this).parents().find('.img-block > span').text();
+        localStorage.setItem('nameProduct',nameOfProduct);
+        localStorage.setItem('productPrice',25);
 
-        alert(name.text());
-        /*var name =  $('.text-block').attr( "id");
-        localStorage.setItem('nameProduct',name);
-        localStorage.setItem('productPrice',25);*/
+    /*    $.ajax({
+            url : 'getPriseFromInternet',
+            type: 'GET',
+            async: false,
 
+
+            success: function (msg) {
+                result = '' + msg.text;
+                localStorage.setItem('nameProduct',name);
+                localStorage.setItem('productPrice',result);
+
+            }
+        });*/
     });
 });
 
@@ -72,15 +82,18 @@ $(document).ready(function(){
 /!*    return location.href="/orderProduct";*!/
 };*/
 
-function getMoreHeight (name) {
+//get More size for text-block
+$(document).ready(function(){
+    $('.getMoreHight').click(function(){
+        var productBlockHeight = $(this).parents().find('.text-block ');
 
-    var productBlockHeight = $('#'+name+'.text-block');
+        if(productBlockHeight.css('height') != "314px") {
+            //$('.product-block').css({'height':'320px'});
+            productBlockHeight.animate({"height": "314px"},1000);
+        }else {
 
-    if(productBlockHeight.css('height') != "314px") {
-        //$('.product-block').css({'height':'320px'});
-        productBlockHeight.animate({"height": "314px"},1000);
-    }else {
+            productBlockHeight.animate({"height": "+=830px"},1000);
+        }
 
-        productBlockHeight.animate({"height": "+=830px"},1000);
-    }
-}
+    });
+});
