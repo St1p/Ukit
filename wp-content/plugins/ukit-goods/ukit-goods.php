@@ -10,10 +10,56 @@ Plugin URI: http://easy-code.ru/lesson/building-wordpress-plugin-part-one
 add_action( 'pre_get_posts', 'ukit_get_post_data' );
 add_action('admin_menu', 'ukit_add_admin_huk');
 
-register_activation_hook(__FILE__, 'msp_helloworld_activation');
-register_deactivation_hook(__FILE__, 'msp_helloworld_deactivation');
+register_activation_hook(__FILE__, 'ukit_goods_activation');
+register_deactivation_hook(__FILE__, 'ukit_goods_deactivation');
 
-function msp_helloworld_activation() {
+//check created posts
+add_action( 'save_post', 'ukit_check_post' );
+
+//product
+function ukit_check_post ($postId) {
+    global $wpdb;
+    
+    $post = get_post($postId);
+    $category = get_the_category( $postId );
+    if($category[0]->cat_name == "products") {
+        $postName = $post->post_title;
+
+        if(!empty($_POST)) {
+
+            $productIdFromDB = $wpdb->get_results( "SELECT product_id  FROM wp_ukit_products WHERE product_id  = '$postId' " );
+
+            if(empty($productIdFromDB)){
+                ukit_create_product($postId, $postName);
+            }else {
+                ukit_update_product($postId, $postName);
+            }
+
+        }
+        if(!empty($_GET['action'] == 'trash')) {
+            ukit_delete_product($postId);
+        }
+    }
+}
+
+function ukit_create_product($productId, $productName ){
+    global $wpdb;
+
+    $wpdb->query( $wpdb->prepare("INSERT INTO wp_ukit_products (product_id, product_name) VALUES ( %d, %s)", array($productId, $productName)));
+
+}
+
+function ukit_update_product($productId, $productName){
+    global $wpdb;
+    $wpdb->update('wp_ukit_products', array('product_name'=>$productName), array('product_id'=>$productId));
+}
+function ukit_delete_product($productId){
+    global $wpdb;
+    $wpdb->delete( 'wp_ukit_products', array( 'product_id' => $productId) );
+}
+//end product
+
+function ukit_goods_activation() {
 
     global $wpdb;
 
@@ -37,12 +83,20 @@ function msp_helloworld_activation() {
           ON UPDATE CASCADE
           ON DELETE CASCADE
       ) ENGINE=InnoDB CHARACTER SET=UTF8;" );
+
+    $wpdb->get_results( "CREATE TABLE wp_ukit_products (
+        product_id  INT  NOT NULL,
+        product_name VARCHAR(40),
+        product_prise  INT,
+        PRIMARY KEY ( product_id )
+      )" );
 }
 
-function msp_helloworld_deactivation() {
+function ukit_goods_deactivation() {
     global $wpdb;
      $wpdb->get_results( "DROP TABLE wp_ukit_orders;" );
      $wpdb->get_results( "DROP TABLE wp_ukit_costomers;" );
+     $wpdb->get_results( "DROP TABLE wp_ukit_products;" );
 }
 
 

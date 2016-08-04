@@ -84,12 +84,10 @@ $(document).on('click', 'input:submit', function (e) {
 			var data = {'costumerData': costumerData, 'ordersArray': ordersArray};
 
 			$.ajax({
-				url: 'http://myprogect/basket/',
+				url: '/',
 				type: 'POST',
 				dataType: "json",
 				async: false,
-				/*data: "name="+array, "form="+form,*/
-				/* data: "name="+array,*/
 				data: data,
 
 
