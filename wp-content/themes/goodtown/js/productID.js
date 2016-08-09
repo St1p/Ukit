@@ -40,22 +40,21 @@ var productSelection = function(name) {
 $(document).ready(function(){
     $('.getProductName').click(function(){
         var nameOfProduct = $(this).parents().find('.img-block > span').text();
-        localStorage.setItem('nameProduct',nameOfProduct);
-        localStorage.setItem('productPrice',25);
+   /*     localStorage.setItem('nameProduct',nameOfProduct);
+        localStorage.setItem('productPrice',25);*/
 
-    /*    $.ajax({
+        $.ajax({
             url : 'getPriseFromInternet',
-            type: 'GET',
+            type: 'POST',
             async: false,
+            data: 'exchangeRate',
 
-
-            success: function (msg) {
-                result = '' + msg.text;
-                localStorage.setItem('nameProduct',name);
-                localStorage.setItem('productPrice',result);
+            success: function (sellRate) {
+                localStorage.setItem('nameProduct',nameOfProduct);
+                localStorage.setItem('productPrice',sellRate);
 
             }
-        });*/
+        });
     });
 });
 

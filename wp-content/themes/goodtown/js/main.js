@@ -92,18 +92,24 @@ $(document).on('click', 'input:submit', function (e) {
 
 
 				success: function (msg) {
-					var result = '' + msg.text;
-
-					alert(msg);
-					/*  if(result == "goodReqest") {
+					  if(msg == "ok") {
 					 localStorage.clear();
 					 alert("Ваше замовлення прийняте");
 					 location.reload();
-					 }if(result == "BaskedIsEmpty") {
+					 }if(msg == "notOrderData") {
 					 alert("Заповніть Корзину");
-					 }else {
-					 alert("Афториризуйтесь")
-					 }*/
+					 }
+
+					 /*alert(msg);
+					  if(result == "ok") {
+					  localStorage.clear();
+					  alert("Ваше замовлення прийняте");
+					  location.reload();
+					  }if(result == "BaskedIsEmpty") {
+					  alert("Заповніть Корзину");
+					  }else {
+					  alert("Афториризуйтесь")
+					  }*/
 				}
 			});
 			// location.href='/save.php'

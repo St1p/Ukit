@@ -1,5 +1,6 @@
 @import "bootstrap/bootstrap.css";
 @import "bootstrap/bootstrap-grid-3.3.1.min.css";
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css";
 
 .admin-wraper > .container {
     max-width: 1100px;
