@@ -47,12 +47,15 @@ $(document).ready(function(){
             url : 'getPriseFromInternet',
             type: 'POST',
             async: false,
-            data: 'exchangeRate',
+            data: {'getProductPrise' : nameOfProduct},
 
-            success: function (sellRate) {
-                localStorage.setItem('nameProduct',nameOfProduct);
-                localStorage.setItem('productPrice',sellRate);
-
+            success: function (resultArray) {
+                var data = JSON.parse(resultArray);
+                if(!data.status) {
+                    alert("На даний товар ціна не встановленна");
+                }
+                    localStorage.setItem('nameProduct',nameOfProduct);
+                    localStorage.setItem('productPrice',data.prise);
             }
         });
     });

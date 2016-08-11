@@ -124,6 +124,7 @@ function ukit_delete_costumer_order() {
 }
 //end product
 
+
 function ukit_get_post_data()
 {
     global $wpdb;
@@ -172,7 +173,6 @@ function ukit_create_admin_page()
     $newtable = $wpdb->get_results( "SELECT * FROM wp_ukit_costomers;");
     //$product = $wpdb->get_results( "SELECT * FROM wp_ukit_costomers, wp_ukit_orders  WHERE wp_ukit_costomers.customer_id = wp_ukit_orders.customer_id;" );
     ukit_create_costumer_table($wpdb,$newtable );
-    ukit_form_of_product($wpdb);
     ukit_admin_page_js();
 
 }
@@ -182,9 +182,9 @@ function ukit_create_costumer_table($wpdb,$newtable ) {
 
     echo "
  <div class=\"admin-wraper\">
-    <div class=\"container\">
+    <div class=\"container\"> ";
 
-            ";
+    ukit_form_of_product($wpdb);
     foreach($newtable as $value) {
         $finalPrise = 0;
         $products = $wpdb->get_results("SELECT * FROM  wp_ukit_orders  WHERE  " . $value->customer_id . " = wp_ukit_orders.customer_id;");
@@ -251,15 +251,33 @@ function ukit_form_of_product($wpdb){
     $postOfProduct = $wpdb->get_results( "SELECT * FROM wp_ukit_products;");
     //вивести ціну на  тавар
     echo "
-     <form  id=\"setProductPrise\"  >
-    <select name='productId'>";
-    foreach($postOfProduct as $post) {
-    echo "<option value=\"$post->product_id\">$post->product_name</option>";
-      }
-    echo  "</select>
-     <input type=\"text\"    name=\"prise\" class=\"form-control\"  placeholder=\"Ціна товару\">
-     <input  id='button' class=\"form-submit\" value=\"записати\">
-    </form> ";
+    <div class='form-wraper'>
+         <form   id=\"setProductPrise\"  >
+        <select name='productId'>";
+        foreach($postOfProduct as $post) {
+        echo "<option value=\"$post->product_id\">$post->product_name</option>";
+          }
+        echo  "</select>
+         <input type=\"text\"    name=\"prise\" class=\"form-control\"  placeholder=\"Вкажіть ціну товару\">
+         <input type=\"button\"  id='button' class=\"form-submit\" value=\"записати\">
+        </form> 
+    </div>
+    ";
+
+}
+
+function ukit_save_product_prise(){
+    global $wpdb;
+
+    if(isset($_POST['productId']) && isset($_POST['prise'])) {
+        //check digit
+        $digit = is_numeric($_POST['prise']);
+        if ($digit) {
+            $wpdb->update('wp_ukit_products', array('product_prise'=>$_POST['prise']), array('product_id'=>$_POST['productId']));
+        }
+        echo  json_encode($digit);
+        die();
+    }
 }
 
 function ukit_admin_page_js(){
@@ -307,16 +325,53 @@ function ukit_admin_page_js(){
 //end components admin page
 
 
-function ukit_save_product_prise(){
-    global $wpdb;
+//get prouct prise
+add_action( 'pre_get_posts', 'ukit_get_product_prise' );
 
-    if(isset($_POST['productId']) && isset($_POST['prise'])) {
-        //check digit
-        $digit = is_numeric($_POST['prise']);
-        if ($digit) {
-        $wpdb->update('wp_ukit_products', array('product_prise'=>$_POST['prise']), array('product_id'=>$_POST['productId']));
+function ukit_get_product_prise() {
+    global $wpdb;
+    if(isset($_POST['getProductPrise'])) {
+        $nameOfProduct =  str_replace(" ","",$_POST['getProductPrise']);
+
+        $productPrise =  $wpdb->get_results("SELECT product_prise FROM  wp_ukit_products  WHERE '$nameOfProduct' = wp_ukit_products.product_name;");
+        $response["status"] = !empty($productPrise) && !is_null($productPrise[0]->product_prise);
+        if ($response["status"] ) {
+            $exengeRate = get_data_from_internet();
+            $result = $exengeRate * $productPrise[0]->product_prise;
+            $response['prise'] = $result;
+        }else {
+            $response['prise'] = 0;
         }
-        echo  json_encode($digit);
+        echo json_encode($response);
         die();
     }
 }
+
+function get_data_from_internet()
+{
+        $content = file_get_contents('http://goverla.ua/');
+
+// Определяем позицию строки, до которой нужно все отрезать
+        $pos = strpos($content, '<div class="gvrl-table-row" id="pln">');
+
+//Отрезаем все, что идет до нужной нам позиции
+        $content = substr($content, $pos);
+
+// Точно таким же образом находим позицию конечной строки
+        $pos = strpos($content, '<div class="gvrl-table-row" id="huf">');
+
+// Отрезаем нужное количество символов от нулевого
+        $content = substr($content, 0, $pos);
+
+// Get number
+        $numbers = preg_replace("/[^0-9]/", '', $content);
+
+        $arrayExchangeRate = str_split($numbers, 3);
+
+        $sellRate = (float)$arrayExchangeRate[0];
+        $buyRate = $arrayExchangeRate[1];
+
+        return  $sellRate / 100 ;
+
+}
+

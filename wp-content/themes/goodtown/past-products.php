@@ -3,87 +3,7 @@
 ?>
 
 <?php get_header(); ?>
-<div class="modal fade modal-order" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
 
-      <div class="modal-header center">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h2 class="modal-title">Замовлення</h2>
-      </div>
-
-      <div class="modal-body">
-
-        <div class="content-block">
-
-          <div class="table-block">
-
-            <div class="row-block">
-              <div class="cell-block">
-                <label >Виберіть тару:</label>
-              </div>
-              <div class="cell-block">
-                <select  id="chooseProductValue" >
-                  <option value="1">1 літр</option>
-                  <option value="10">10 літр</option>
-                  <option value="200">200 літр </option>
-                  <option value="1000">1000 літр</option>
-                </select>
-              </div>
-            </div>
-
-            <div class="row-block">
-              <div class="cell-block">
-                <label  >Ціна за 1 літр:  </label>
-              </div>
-              <div class="cell-block" id="priceForLetters"></div>
-            </div>
-
-            <div class="row-block">
-              <div class="cell-block">
-                <label >Ціна за каністру: </label>
-              </div>
-              <div class="cell-block" id="priceForCanister"></div>
-            </div>
-
-            <div class="row-block">
-              <div class="cell-block">
-                <label >Ціна за бочку: </label>
-              </div>
-              <div class="cell-block" id="priceForBarrel"></div>
-            </div>
-
-
-            <div class="row-block">
-              <div class="cell-block">
-                <label >Ціна за контейнер:</label>
-              </div>
-              <div class="cell-block" id="priceForContainer"></div>
-            </div>
-
-            <div id="error-block" class="row-block ">
-              <div class="cell-block">
-                <p > Виберіть: </p >
-              </div>
-              <div class="cell-block">
-                <p > Тару Продукту </p >
-              </div>
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-
-      <div class="modal-footer">
-        <button  class="buttonclass" type="button" id="0" onclick="SaveDataInLocalStage()">Додати в корзину</button>
-        <button type="button" onClick='location.href="/basket"'>Перейти в корзину</button>
-      </div>
-
-    </div>
-  </div>
-</div>
   <div id="product-block">
     <div class="container">
       <div class="row">
@@ -140,7 +60,7 @@
               <div class="img-block">
                 <!--<button type='button' onClick='getProductName("KO-919")'>Замовити</button>-->
                 <!--<button type='button' onClick='getMoreHeight() '>Збільшити</button>-->
-                <span> KO-909 </span>
+                <span> ANGUCEL KO-919 </span>
                 <img src="/wp-content/themes/goodtown/img/botel.jpg" >
               </div>
               <div id="KO-919" class="text-block">
@@ -248,6 +168,87 @@
                 <button class="getProductName" data-toggle="modal" data-target=".modal-order" type='button'>Замовити</button>
                <!-- <button type='button' onClick='getMoreHeight("KO-919")'>Детальніше</button>-->
                 <button type='button' class="getMoreHight">Детальніше</button>
+                <div class="modal fade modal-order" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+
+                  <div class="modal-header center">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h2 class="modal-title">Замовлення</h2>
+                  </div>
+
+                  <div class="modal-body">
+
+                  <div class="content-block">
+
+                    <div class="table-block">
+
+                      <div class="row-block">
+                        <div class="cell-block">
+                          <label >Виберіть тару:</label>
+                        </div>
+                        <div class="cell-block">
+                          <select  id="chooseProductValue" >
+                            <option value="1">1 літр</option>
+                            <option value="10">10 літр</option>
+                            <option value="200">200 літр </option>
+                            <option value="1000">1000 літр</option>
+                          </select>
+                        </div>
+                      </div>
+
+                      <div class="row-block">
+                        <div class="cell-block">
+                          <label  >Ціна за 1 літр:  </label>
+                        </div>
+                        <div class="cell-block" id="priceForLetters"></div>
+                      </div>
+
+                      <div class="row-block">
+                        <div class="cell-block">
+                          <label >Ціна за каністру: </label>
+                        </div>
+                        <div class="cell-block" id="priceForCanister"></div>
+                      </div>
+
+                      <div class="row-block">
+                        <div class="cell-block">
+                          <label >Ціна за бочку: </label>
+                        </div>
+                        <div class="cell-block" id="priceForBarrel"></div>
+                      </div>
+
+
+                      <div class="row-block">
+                        <div class="cell-block">
+                          <label >Ціна за контейнер:</label>
+                        </div>
+                        <div class="cell-block" id="priceForContainer"></div>
+                      </div>
+
+                      <div id="error-block" class="row-block ">
+                        <div class="cell-block">
+                          <p > Виберіть: </p >
+                        </div>
+                        <div class="cell-block">
+                          <p > Тару Продукту </p >
+                        </div>
+                      </div>
+
+                    </div>
+
+                  </div>
+
+                  </div>
+
+                  <div class="modal-footer">
+                    <button  class="buttonclass" type="button" id="0" onclick="SaveDataInLocalStage()">Додати в корзину</button>
+                    <button type="button" onClick='location.href="/basket"'>Перейти в корзину</button>
+                  </div>
+
+                </div>
+              </div>
+            </div>
               </div>
         </div>
       </div>
@@ -268,6 +269,8 @@
   </div>
   </div>
 </div>
+
+
 
 <?php  get_footer(); ?>
 

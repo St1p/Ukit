@@ -12,16 +12,13 @@
 
 		<link rel="stylesheet"  type="text/css" href="/wp-content/themes/goodtown/css/bootstrap/bootstrap.css">
 		<link rel="stylesheet" href="/wp-content/themes/goodtown/css/bootstrap/bootstrap-grid-3.3.1.min.css" />
-		<link rel="stylesheet/less" type="text/css" href="/wp-content/themes/goodtown/css/main.less">
-		<link rel="stylesheet/less" type="text/css" href="/wp-content/themes/goodtown/css/fonts/styles.css">
-		<link rel="stylesheet/less" type="text/css" href="/wp-content/themes/goodtown/css/media.css">
+		<link rel="stylesheet" type="text/css" href="/wp-content/themes/goodtown/css/fonts/styles.css">
+		<link rel="stylesheets" type="text/css" href="/wp-content/themes/goodtown/css/media.css">
+		<link rel="stylesheet" type="text/css" href="/wp-content/themes/goodtown/css/main.css">
+		<link rel="stylesheet" type="text/css" href="/wp-content/themes/goodtown/css/less-file/modal-order.css">
+		<link rel="stylesheet" type="text/css" href="/wp-content/themes/goodtown/css/less-file/product.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
-
-		<script src="/wp-content/themes/goodtown/js/vendor/less.js" type="text/javascript"></script>
-
-
-		<style id="less:awesome-tehno-2k-css-main" type="text/css"></style>
 		<?php wp_head();  ?>
 	</head>
 	<body>

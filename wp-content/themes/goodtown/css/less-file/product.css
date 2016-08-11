@@ -1,20 +1,18 @@
 #product-block {
   margin: 100px 0 50px 0;
 }
-
 .dobavki {
   visibility: hidden;
-  display:none;
+  display: none;
 }
 .barvniki {
   visibility: hidden;
-  display:none;
+  display: none;
 }
 .presentation {
   visibility: visible;
   display: block;
 }
-
 .nav-block {
   background: #323334;
   text-align: left;
@@ -23,40 +21,31 @@
   border-bottom-width: 2px;
   border-bottom-style: solid;
   border-bottom-color: #F4CD3B;
-
 }
-.nav-block ul{
-
+.nav-block ul {
   margin: 40px 0 0 0;
   vertical-align: top;
   display: inline-block;
-
 }
-
 .nav-block ul li {
   margin: 0 104px;
-  display:inline;
+  display: inline;
   border: 1px;
   box-sizing: border-box;
-
 }
 .nav-block ul li a {
-
   margin: 1em 0 0.5em 0;
   font-weight: bold;
-  font-family: "PT Sans",Arial,sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   font-size: 14px;
   line-height: 28px;
   text-transform: uppercase;
-  font-style:oblique;
+  font-style: oblique;
   color: #C0C0C0;
-
 }
-
-.nav-block ul li a:hover{
+.nav-block ul li a:hover {
   color: #f1c00a;
 }
-
 button {
   background-color: #f1c00a;
   border: none;
@@ -67,16 +56,11 @@ button {
 button:hover {
   background-color: #777;
   color: #fff;
-
 }
-
-
-.img-block   {
+.img-block {
   display: block;
   float: left;
-
 }
-
 .img-block span {
   display: block;
   font-style: oblique;
@@ -85,10 +69,9 @@ button:hover {
   font-weight: bold;
 }
 .img-block button {
-  border-radius:0;
+  border-radius: 0;
 }
-
-.text-block  {
+.text-block {
   height: 314px;
   /*height: 1140px;*/
   overflow: hidden;
@@ -96,88 +79,73 @@ button:hover {
   margin-bottom: 15px;
   font-weight: inherit;
   padding: 0 10px;
-  h3 {
-    margin: 0;
-    font-size: 17px;
-  }
-
+}
+.text-block h3 {
+  margin: 0;
+  font-size: 17px;
 }
 .button-block {
   display: block;
   text-align: right;
 }
-.button-block button{
+.button-block button {
   margin: 10px 10px;
 }
-
-.text-block  h2 {
+.text-block h2 {
   text-align: center;
   font-size: 13px;
   color: #080808;
   font-weight: bold;
   line-height: 30px;
-  text-decoration:none;
+  text-decoration: none;
   text-transform: uppercase;
 }
 h3 {
   text-align: left;
 }
-
-.text-block  a {
-  text-decoration:none;
+.text-block a {
+  text-decoration: none;
   color: #080808;
 }
-
-.text-block  a:hover {
+.text-block a:hover {
   color: #F4CD3B;
 }
-
-.text-block ul li{
+.text-block ul li {
   margin: 6px 0;
 }
-
-
 .product-block {
   /*height: 320px;*/
   display: inline-block;
   box-shadow: 0px 0px 4px #ABABAB;
   text-align: left;
   /*overflow: hidden;*/
-
 }
-
 .table-block {
   border-spacing: 5px;
   margin: 0 22px 35px 22px;
   display: table;
   box-shadow: 5px 4px 4px #ABABAB;
 }
-
 .row-block {
   display: table-row;
-
 }
 .cell-block {
-  box-shadow:  3px 1px 6px #ABABAB;
+  box-shadow: 3px 1px 6px #ABABAB;
   text-align: center;
   color: #000000;
   font-weight: inherit;
-  font-family: "PT Sans",Arial,sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   font-size: 15px;
   line-height: 10px;
-  font-style:oblique;
+  font-style: oblique;
   padding: 10px;
-  display:table-cell;
+  display: table-cell;
   width: 257px;
   /*background: #8b8385;*/
 }
-
-
-
 .spares-list {
   border: 1px solid #c7c7c7;
 }
-
 .spares-list h4 {
   position: relative;
   margin: 0;
@@ -185,31 +153,24 @@ h3 {
   background-color: #f1c00a;
   font-size: 17px;
   text-transform: uppercase;
-
-
-  i {
-    margin: 0px  20px;
-    &:hover {
-      color: #ffffff;
-    }
-  }
 }
-
-
+.spares-list h4 i {
+  margin: 0px  20px;
+}
+.spares-list h4 i:hover {
+  color: #ffffff;
+}
 .spares-list ul {
   padding: 0;
   margin: 0;
   list-style: none;
 }
-
 .spares-list ul li {
   padding: 8px 0 8px 23px;
 }
-
 .spares-list ul li:nth-child(even) {
   background-color: #f0f0f0;
 }
-
 .spares-list ul li a {
   color: #323334;
   font-size: 13px;
@@ -217,13 +178,9 @@ h3 {
   text-transform: uppercase;
   font-weight: 700;
 }
-
 .spares-list ul li a:hover {
   text-decoration: underline;
 }
-
 .product-bg {
   background: url(https://demo.proteusthemes.com/buildpress/wp-content/themes/buildpress/assets/images/title-area-pattern.png);
 }
-
-

@@ -28,3 +28,22 @@
     margin: 0;
     font-size: 17px;
 }
+
+.form-wraper {
+    margin-top: 20px;
+}
+.form-wraper input  {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    margin-bottom: 0px;
+    height: 28px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #555555;
+    vertical-align: middle;
+}
+.form-wraper  input[type="button"] {
+    background-color: #f1c00a;
+    font-size: 15px;
+    padding: 0 7%;
+}

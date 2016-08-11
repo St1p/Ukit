@@ -18,7 +18,7 @@
 
            nameProduct = localStorage.getItem('nameProduct');
            productPrice = localStorage.getItem('productPrice');
-           productPrice =  Math.round(4 * parseFloat(productPrice));
+           productPrice =  Math.round(parseFloat(productPrice));
            valueProduct = $("select#chooseProductValue").val();
            priceForLetters.innerHTML = productPrice + " грн";
            priceForCanister.innerHTML = (productPrice *10) +" грн";
