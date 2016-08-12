@@ -3,11 +3,11 @@
 ?>
 
 <?php get_header(); ?>
-<div class="container">
+<div class="container ">
   <div class="row ">
     <div class="col-xs-12 col-sm-12 col-md-12 ">
       
-    <div class="content-block">
+    <div class="content-block min-height">
   <h2>Корзина Продуктів</h2>
   <div class="table-block basket-content">
 
@@ -28,7 +28,7 @@
 
   </div>
 
-  <div class="table-block">
+  <div class="table-block basked-block">
 
     <div class="row-block">
       <div class="cell-block">

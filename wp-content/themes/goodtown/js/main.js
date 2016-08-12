@@ -95,7 +95,7 @@ $(document).on('click', 'input:submit', function (e) {
 					  if(msg == "ok") {
 					 localStorage.clear();
 					 alert("Ваше замовлення прийняте");
-					 location.reload();
+                          window.location.replace("/");
 					 }if(msg == "notOrderData") {
 					 alert("Заповніть Корзину");
 					 }
@@ -116,4 +116,13 @@ $(document).on('click', 'input:submit', function (e) {
 		} else  {
 			alert('false');
 		}
+});
+
+$( document ).ready(function() {
+
+    $('.img-block figure').each(function (e) {
+        var bg = 'url(' + $(this).find('> img').attr('src') + ')';
+        var bg_ie = $(this).find('> img').attr('src');
+        $(this).css('background-image', bg);
+    });
 });

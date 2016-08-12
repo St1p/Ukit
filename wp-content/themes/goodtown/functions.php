@@ -10,4 +10,5 @@ function my_stylesheet1(){
 add_action('admin_head', 'my_stylesheet1');
 
 
+add_theme_support( 'post-thumbnails' );
 ?>

@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic);
 @import "fonts/styles.css";
 @import "slick.css";
 .clearfix:before,
@@ -7,73 +8,6 @@
 }
 .clearfix:after {
   clear: both;
-}
-.title-one {
-  text-transform: uppercase;
-  font-family: Arial;
-  font-size: 24px;
-  font-weight: 500;
-  margin: 0;
-}
-.title-two {
-  text-transform: uppercase;
-  font-size: 19px;
-  font-family: Arial;
-  font-weight: 700;
-  margin: 0;
-}
-.white-title {
-  text-transform: uppercase;
-  color: #fff;
-  font-family: Arial;
-  font-size: 24px;
-  font-weight: 500;
-  margin: 0;
-}
-.apartment-title {
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 19px;
-  font-family: Arial;
-  font-weight: 700;
-  margin: 0;
-  line-height: 0.8;
-}
-.breadcrumbs-title {
-  font-size: 24px;
-  font-weight: 700;
-  margin: 0;
-  line-height: 1;
-  letter-spacing: -1px;
-}
-.img-title {
-  text-transform: uppercase;
-  color: #fff;
-  font-size: 36px;
-  font-weight: 700;
-  margin: 0;
-}
-.enter-title {
-  border: 3px solid #dba13d;
-  color: #fff;
-  background: #354d80;
-  padding: 23px 10px 24px 20px;
-  text-transform: uppercase;
-  font-size: 24px;
-  margin: 17px 0 38px;
-  font-weight: 700;
-}
-.catalog-main-title {
-  font-size: 15px;
-  text-transform: uppercase;
-  font-weight: 700;
-  margin: 0;
-}
-.article-title {
-  font-size: 15px;
-  text-transform: uppercase;
-  font-weight: 700;
-  margin: 0;
 }
 #product-block {
   margin: 100px 0 50px 0;
@@ -314,10 +248,10 @@ select:focus {
   outline: none;
 }
 .content-block {
+  margin-top: 60px;
   display: block;
   width: 100%;
   text-align: center;
-  margin: 35px 0;
 }
 .table-block {
   border-spacing: 5px;
@@ -360,7 +294,7 @@ select:focus {
   text-align: center;
 }
 .context-bold {
-  font-family: Raleway-Heavy;
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
   font-weight: bold;
 }
@@ -451,7 +385,7 @@ body {
   display: inline-block;
   vertical-align: top;
   padding: 3px;
-  font-family: Raleway-Heavy;
+  font-family: 'Roboto', sans-serif;
   font-size: 39px;
   line-height: 30px;
 }
@@ -491,6 +425,7 @@ body {
   color: #454545;
   font-size: 15px;
   padding: 10px 2px;
+  margin-left: 4px;
 }
 .header-basket a {
   color: #000000;
@@ -543,7 +478,7 @@ body {
 #foto-info .foto-wrap-text .foto-text {
   padding: 20px 0;
   color: #ffffff;
-  font-family: Raleway-Heavy;
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
   font-weight: bold;
 }
@@ -710,7 +645,7 @@ body {
 }
 .quote {
   padding: 70px 0;
-  font-family: Raleway-Heavy;
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
   color: #ffffff;
 }
@@ -827,4 +762,34 @@ body {
 }
 .purchase-form .modal-content {
   background: red!important;
+}
+.img-block figure {
+  margin: 0 0 0 10px;
+  min-height: 130px;
+  width: 100px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.img-block figure img {
+  display: none;
+}
+.product-block {
+  margin-bottom: 50px;
+}
+.min-height {
+  min-height: 460px;
+}
+.modal {
+  display: none;
+}
+.table-block button {
+  padding: 13px 10px;
+  margin: 10px 0 10px 0;
+}
+.basked-block button {
+  margin: 0;
+  min-width: 175px;
+  min-height: 38px;
 }

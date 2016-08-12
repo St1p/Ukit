@@ -220,9 +220,9 @@ function ukit_create_costumer_table($wpdb,$newtable ) {
 
                 $finalPrise = $finalPrise + $product->product_prise;
                 echo "
-             
+
                      <tr>
-                   
+
                      <td >" . $product->product_name . " </td>
                      <td>" . $product->product_prise . "</td>
                      <td>" . $product->product_value . "</td>
@@ -237,11 +237,11 @@ function ukit_create_costumer_table($wpdb,$newtable ) {
                                      </table>
                                             </div>
                                               </div>
-                                              </div> 
+                                              </div>
                                               <div>Загальна ціна : $finalPrise </div>";
         }
     }
-    echo "  
+    echo "
                 </div>
                    </div>  ";
 }
@@ -258,9 +258,9 @@ function ukit_form_of_product($wpdb){
         echo "<option value=\"$post->product_id\">$post->product_name</option>";
           }
         echo  "</select>
-         <input type=\"text\"    name=\"prise\" class=\"form-control\"  placeholder=\"Вкажіть ціну товару\">
+         <input type=\"text\"    name=\"prise\" class=\"form-control\"  placeholder=\"Вкажіть ціну товару в злотих\">
          <input type=\"button\"  id='button' class=\"form-submit\" value=\"записати\">
-        </form> 
+        </form>
     </div>
     ";
 
@@ -285,40 +285,40 @@ function ukit_admin_page_js(){
      <script >
    jQuery('#button').click(function(){
        var productPrise = jQuery(\"#setProductPrise\").serialize();
-   
+
        jQuery.ajax({
 				url: '/',
 				type: 'POST',
 				dataType: \"json\",
 				async: false,
 				data: productPrise,
-				
+
 				success: function (result) {
 				    (result)?alert('Ціна змінена'):alert('Введіть число');
 				}
 			});
     });
-    
-    
+
+
       jQuery('.fa-trash-o').click(function(){
       //var nameOfProduct = $(this).parents().find('.hidden').text();
       var productId = jQuery(this).parent().find('span').text();
-   
+
        jQuery.ajax({
 				url: '/',
 				type: 'POST',
 				dataType: \"json\",
 				async: false,
 				data: {'productId' : productId},
-				
+
 				success: function (result) {
 				    alert(result);
 				    location.reload();
 				}
 			});
     });
-    
-    
+
+
     </script>
     ";
 }

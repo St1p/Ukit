@@ -51,10 +51,10 @@ select:focus {
   outline: none;
 }
 .content-block {
+  margin-top: 60px;
   display: block;
   width: 100%;
   text-align: center;
-  margin: 35px 0;
 }
 .table-block {
   border-spacing: 5px;

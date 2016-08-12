@@ -3,6 +3,7 @@
 // -----------------------------------------
 
 // Fonts
+@import url(https://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic);
 
 @fontRegular:           Arial;
 @font-family:           @fontRegular;
@@ -30,7 +31,6 @@
 
 // -----------------------------------------
 
-@import "titles.less";
 @import "less-file/product.less";
 @import "less-file/modal-order.less";
 // -----------------------------------------
@@ -59,7 +59,7 @@
   font-size:@size ;
 }
 .fontRaleway-Heavy(@size) {
-  font-family :@fontRaleway-Heavy;
+  font-family: 'Roboto', sans-serif;
   font-size:@size
 }
 .fontMontserrat-Bold(@size) {
@@ -196,6 +196,7 @@ padding: 25px 10px 0 0 ;
     color: #454545;
     font-size: 15px;
     padding: 10px 2px;
+    margin-left: 4px;
   }
   a {
     color: #000000;
@@ -527,9 +528,39 @@ padding: 25px 10px 0 0 ;
 
 }
 
-.hide-model {
-
+//static img
+.img-block figure {
+  margin: 0 0 0 10px;
+  min-height: 130px;
+  width: 100px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.img-block figure img {
+  display: none;
 }
 
 
+.product-block {
+  margin-bottom: 50px;
+}
+.min-height {
+  min-height: 460px;
+}
+.modal {
+  display: none;
+}
+
+.table-block button{
+  padding: 13px 10px;
+  margin: 10px 0 10px 0;
+}
+//button
+.basked-block button{
+  margin: 0;
+  min-width: 175px;
+  min-height: 38px;
+}
 

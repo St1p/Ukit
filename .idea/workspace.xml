@@ -2,19 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8642130-851e-4363-bbcb-754a308c2373" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/goodtown/past-products.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/ukit-goods/ukit-goods.php" afterPath="$PROJECT_DIR$/wp-content/plugins/ukit-goods/ukit-goods.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/goodtown/css/less-file/product.less" afterPath="$PROJECT_DIR$/wp-content/themes/goodtown/css/less-file/product.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/goodtown/css/main.css" afterPath="$PROJECT_DIR$/wp-content/themes/goodtown/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/goodtown/css/main.less" afterPath="$PROJECT_DIR$/wp-content/themes/goodtown/css/main.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/goodtown/css/style-admin.css" afterPath="$PROJECT_DIR$/wp-content/themes/goodtown/css/style-admin.css" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\myprogect\wp-content\themes\goodtown\css\titles.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\OpenServer\domains\myprogect\wp_ukit.sql" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Ukit.iml" afterPath="$PROJECT_DIR$/.idea/Ukit.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/goodtown/basket.php" afterPath="$PROJECT_DIR$/wp-content/themes/goodtown/basket.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/goodtown/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/goodtown/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/goodtown/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/goodtown/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/goodtown/js/logikOrderProduct.js" afterPath="$PROJECT_DIR$/wp-content/themes/goodtown/js/logikOrderProduct.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/goodtown/css/main.css" afterPath="$PROJECT_DIR$/wp-content/themes/goodtown/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/goodtown/js/main.js" afterPath="$PROJECT_DIR$/wp-content/themes/goodtown/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/goodtown/css/main.less" afterPath="$PROJECT_DIR$/wp-content/themes/goodtown/css/main.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/goodtown/css/mixins.css" afterPath="$PROJECT_DIR$/wp-content/themes/goodtown/css/mixins.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/goodtown/css/less-file/modal-order.css" afterPath="$PROJECT_DIR$/wp-content/themes/goodtown/css/less-file/modal-order.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/goodtown/css/less-file/modal-order.less" afterPath="$PROJECT_DIR$/wp-content/themes/goodtown/css/less-file/modal-order.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/goodtown/css/less-file/product.css" afterPath="$PROJECT_DIR$/wp-content/themes/goodtown/css/less-file/product.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/goodtown/js/productID.js" afterPath="$PROJECT_DIR$/wp-content/themes/goodtown/js/productID.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/goodtown/products.php" afterPath="$PROJECT_DIR$/wp-content/themes/goodtown/products.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/admin-bar.php" afterPath="$PROJECT_DIR$/wp-includes/admin-bar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/ukit-goods/ukit-goods.php" afterPath="$PROJECT_DIR$/wp-content/plugins/ukit-goods/ukit-goods.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Ukit.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,73 +33,71 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="Ukit" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file leaf-file-name="ukit-goods.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/ukit-goods/ukit-goods.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="76" column="46" selection-start-line="76" selection-start-column="46" selection-end-line="76" selection-end-column="46" />
+            <state vertical-scroll-proportion="-21.576923" vertical-offset="1513" max-vertical-offset="2533">
+              <caret line="260" column="114" selection-start-line="260" selection-start-column="114" selection-end-line="260" selection-end-column="114" />
               <folding>
-                <element signature="e#6#208#0#PHP" expanded="true" />
-                <element signature="n#ukit_goods_activation#0;n#!!top" expanded="false" />
-                <element signature="n#ukit_goods_deactivation#0;n#!!top" expanded="false" />
-                <element signature="n#ukit_add_admin_huk#0;n#!!top" expanded="false" />
                 <element signature="n#ukit_create_product#0;n#!!top" expanded="false" />
                 <element signature="n#ukit_update_product#0;n#!!top" expanded="false" />
+                <element signature="n#ukit_delete_product#0;n#!!top" expanded="false" />
                 <element signature="n#ukit_delete_costumer_order#0;n#!!top" expanded="false" />
                 <element signature="n#ukit_get_post_data#0;n#!!top" expanded="false" />
                 <element signature="n#ukit_create_admin_page#0;n#!!top" expanded="false" />
                 <element signature="n#ukit_create_costumer_table#0;n#!!top" expanded="false" />
-                <element signature="n#ukit_form_of_product#0;n#!!top" expanded="false" />
                 <element signature="n#ukit_save_product_prise#0;n#!!top" expanded="false" />
                 <element signature="n#ukit_admin_page_js#0;n#!!top" expanded="false" />
                 <element signature="n#ukit_get_product_prise#0;n#!!top" expanded="false" />
                 <element signature="n#get_data_from_internet#0;n#!!top" expanded="false" />
-                <marker date="1470839266325" expanded="true" signature="788:1125" ph="CREATE TABLE... wp_ukit_costomers" />
-                <marker date="1470839266325" expanded="true" signature="1157:1576" ph="CREATE TABLE... wp_ukit_orders" />
-                <marker date="1470839266325" expanded="true" signature="1608:1779" ph="CREATE TABLE... wp_ukit_products" />
-                <marker date="1470839266325" expanded="true" signature="1867:1892" ph="DROP TABLE w... " />
-                <marker date="1470839266325" expanded="true" signature="1923:1951" ph="DROP TABLE w... " />
-                <marker date="1470839266325" expanded="true" signature="1982:2009" ph="DROP TABLE w... " />
-                <marker date="1470839266325" expanded="true" signature="2470:2540" ph="SELECT produ... wp_ukit_products" />
-                <marker date="1470839266325" expanded="true" signature="2968:3040" ph="INSERT INTO wp_ukit_products... " />
-                <marker date="1470839266325" expanded="true" signature="4120:4220" ph="INSERT INTO wp_ukit_costomers... " />
-                <marker date="1470839266325" expanded="true" signature="4535:4644" ph="INSERT INTO wp_ukit_orders... " />
-                <marker date="1470839266325" expanded="true" signature="5136:5167" ph="SELECT * FRO... wp_ukit_costomers" />
-                <marker date="1470839266325" expanded="true" signature="5529:5560" ph="..." />
-                <marker date="1470839266325" expanded="true" signature="5559:5560" ph="..." />
-                <marker date="1470839266325" expanded="true" signature="5698:5792" ph="SELECT * FRO... wp_ukit_orders" />
-                <marker date="1470839266325" expanded="true" signature="5915:6910" ph="..." />
-                <marker date="1470839266325" expanded="true" signature="5981:6463" ph="..." />
-                <marker date="1470839266325" expanded="true" signature="6036:6436" ph="..." />
-                <marker date="1470839266325" expanded="true" signature="6530:6910" ph="..." />
-                <marker date="1470839266325" expanded="true" signature="6576:6910" ph="..." />
-                <marker date="1470839266325" expanded="true" signature="6634:6910" ph="..." />
-                <marker date="1470839266325" expanded="true" signature="6663:6859" ph="..." />
-                <marker date="1470839266325" expanded="true" signature="6689:6829" ph="..." />
-                <marker date="1470839266325" expanded="true" signature="6888:6910" ph="..." />
-                <marker date="1470839266325" expanded="true" signature="7122:7528" ph="..." />
-                <marker date="1470839266325" expanded="true" signature="7355:7501" ph="..." />
-                <marker date="1470839266325" expanded="true" signature="8091:8121" ph="SELECT * FRO... wp_ukit_products" />
-                <marker date="1470839266325" expanded="true" signature="8194:8271" ph="..." />
-                <marker date="1470839266325" expanded="true" signature="8235:8271" ph="..." />
-                <marker date="1470839266325" expanded="true" signature="8236:8271" ph="..." />
-                <marker date="1470839266325" expanded="true" signature="8237:8254" ph="..." />
-                <marker date="1470839266325" expanded="true" signature="9132:9945" ph="..." />
-                <marker date="1470839266325" expanded="true" signature="9172:9484" ph="{...}" />
-                <marker date="1470839266325" expanded="true" signature="9265:9476" ph="{...}" />
-                <marker date="1470839266325" expanded="true" signature="9401:9471" ph="{...}" />
-                <marker date="1470839266325" expanded="true" signature="9541:9920" ph="{...}" />
-                <marker date="1470839266325" expanded="true" signature="9701:9912" ph="{...}" />
-                <marker date="1470839266325" expanded="true" signature="9850:9907" ph="{...}" />
+                <marker date="1471013029872" expanded="true" signature="788:1125" placeholder="CREATE TABLE..wp_ukit_costomers..." />
+                <marker date="1471013029872" expanded="true" signature="1157:1576" placeholder="CREATE TABLE..wp_ukit_orders..." />
+                <marker date="1471013029872" expanded="true" signature="1608:1779" placeholder="CREATE TABLE..wp_ukit_products..." />
+                <marker date="1471013029872" expanded="true" signature="1867:1892" placeholder="DROP TABLE w..." />
+                <marker date="1471013029872" expanded="true" signature="1923:1951" placeholder="DROP TABLE w..." />
+                <marker date="1471013029872" expanded="true" signature="1982:2009" placeholder="DROP TABLE w..." />
+                <marker date="1471013029872" expanded="true" signature="2470:2540" placeholder="SELECT produ..wp_ukit_products..." />
+                <marker date="1471013029872" expanded="true" signature="2968:3040" placeholder="INSERT INTO ..." />
+                <marker date="1471013029872" expanded="true" signature="4120:4220" placeholder="INSERT INTO ..." />
+                <marker date="1471013029872" expanded="true" signature="4535:4644" placeholder="INSERT INTO ..." />
+                <marker date="1471013029872" expanded="true" signature="5136:5167" placeholder="SELECT * FRO..wp_ukit_costomers..." />
+                <marker date="1471013029872" expanded="true" signature="5529:5560" placeholder="..." />
+                <marker date="1471013029872" expanded="true" signature="5698:5792" placeholder="SELECT * FRO..wp_ukit_orders..." />
+                <marker date="1471013029872" expanded="true" signature="5915:6910" placeholder="..." />
+                <marker date="1471013029872" expanded="true" signature="5981:6463" placeholder="..." />
+                <marker date="1471013029872" expanded="true" signature="6036:6436" placeholder="..." />
+                <marker date="1471013029872" expanded="true" signature="6530:6910" placeholder="..." />
+                <marker date="1471013029872" expanded="true" signature="6576:6910" placeholder="..." />
+                <marker date="1471013029872" expanded="true" signature="6634:6910" placeholder="..." />
+                <marker date="1471013029872" expanded="true" signature="6663:6859" placeholder="..." />
+                <marker date="1471013029872" expanded="true" signature="6689:6829" placeholder="..." />
+                <marker date="1471013029872" expanded="true" signature="6888:6910" placeholder="..." />
+                <marker date="1471013029872" expanded="true" signature="7109:7496" placeholder="..." />
+                <marker date="1471013029872" expanded="true" signature="7323:7469" placeholder="..." />
+                <marker date="1471013029872" expanded="true" signature="8056:8086" placeholder="SELECT * FRO..wp_ukit_products..." />
+                <marker date="1471013029872" expanded="true" signature="8159:8236" placeholder="..." />
+                <marker date="1471013029872" expanded="true" signature="8200:8236" placeholder="..." />
+                <marker date="1471013029872" expanded="true" signature="9105:9888" placeholder="..." />
+                <marker date="1471013029872" expanded="true" signature="9145:9450" placeholder="{...}" />
+                <marker date="1471013029872" expanded="true" signature="9235:9442" placeholder="{&quot;url&quot;: '/'...}" />
+                <marker date="1471013029872" expanded="true" signature="9367:9437" placeholder="{...}" />
+                <marker date="1471013029872" expanded="true" signature="9499:9871" placeholder="{...}" />
+                <marker date="1471013029872" expanded="true" signature="9656:9863" placeholder="{&quot;url&quot;: '/'...}" />
+                <marker date="1471013029872" expanded="true" signature="9801:9858" placeholder="{...}" />
+                <marker date="1471013029872" expanded="true" signature="10222:10321" placeholder="SELECT produ..wp_ukit_products..." />
               </folding>
             </state>
           </provider>
@@ -101,9 +106,23 @@
       <file leaf-file-name="products.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/products.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="17" />
-              <folding />
+            <state vertical-scroll-proportion="70.61539" vertical-offset="2091" max-vertical-offset="3196">
+              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+              <folding>
+                <element signature="tag#div#2;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="basket.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/basket.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.1923075" vertical-offset="357" max-vertical-offset="1207">
+              <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+              <folding>
+                <element signature="tag#div#2;tag#div#0;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -111,7 +130,7 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="408" max-vertical-offset="2295">
               <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
@@ -121,46 +140,53 @@
       <file leaf-file-name="main.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/css/main.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="530" column="0" selection-start-line="530" selection-start-column="0" selection-end-line="530" selection-end-column="0" />
-              <folding>
-                <element signature="e#8811#9290#0" expanded="false" />
-              </folding>
+            <state vertical-scroll-proportion="0.45537758" vertical-offset="9270" max-vertical-offset="9724">
+              <caret line="557" column="23" selection-start-line="557" selection-start-column="23" selection-end-line="557" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="product.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/css/less-file/product.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.1764708" vertical-offset="2388" max-vertical-offset="3995">
+              <caret line="159" column="1" selection-start-line="159" selection-start-column="1" selection-end-line="159" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="true" />
+    </FindUsagesManager>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
+    <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/wp-config.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/goodtown/js/main.js" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-1/breadcrumb-style.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/goodtown/css/style-admin.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/goodtown/css/titles.less" />
         <option value="$PROJECT_DIR$/wp-content/themes/goodtown/functions.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/goodtown/js/logikOrderProduct.js" />
-        <option value="$PROJECT_DIR$/wp-content/themes/goodtown/js/productID.js" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/ukit-goods/ukit-goods.php" />
-        <option value="$PROJECT_DIR$/wp-includes/admin-bar.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/goodtown/css/less-file/product.less" />
-        <option value="$PROJECT_DIR$/wp-content/themes/goodtown/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/goodtown/css/less-file/product.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/goodtown/css/main.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/goodtown/products.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/goodtown/js/productID.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/goodtown/js/logikOrderProduct.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/goodtown/js/main.js" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/ukit-goods/ukit-goods.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/goodtown/basket.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/goodtown/css/less-file/modal-order.less" />
         <option value="$PROJECT_DIR$/wp-content/themes/goodtown/css/main.less" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
   <component name="PhpServers">
     <servers />
   </component>
@@ -168,8 +194,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -180,6 +206,9 @@
     <OptionsSetting value="true" id="Edit" />
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -192,191 +221,200 @@
       <autoscrollToSource />
       <autoscrollFromSource />
       <sortByType />
-      <manualOrder />
-      <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Ukit" />
+              <option name="myItemId" value="myprogect" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Ukit" />
+              <option name="myItemId" value="myprogect" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Ukit" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+              <option name="myItemId" value="myprogect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Ukit" />
+              <option name="myItemId" value="myprogect" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Ukit" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+              <option name="myItemId" value="myprogect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Ukit" />
+              <option name="myItemId" value="myprogect" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Ukit" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+              <option name="myItemId" value="myprogect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Ukit" />
+              <option name="myItemId" value="myprogect" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Ukit" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+              <option name="myItemId" value="myprogect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="goodtown" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Ukit" />
+              <option name="myItemId" value="myprogect" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Ukit" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+              <option name="myItemId" value="myprogect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="goodtown" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Ukit" />
+              <option name="myItemId" value="myprogect" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Ukit" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+              <option name="myItemId" value="myprogect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="goodtown" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Ukit" />
+              <option name="myItemId" value="myprogect" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Ukit" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+              <option name="myItemId" value="myprogect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="goodtown" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myprogect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myprogect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goodtown" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="less-file" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Ukit" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Ukit" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../rumunia.com.ua.local" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="Configurable.PHP" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -388,56 +426,34 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
-      <method />
-    </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
     <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
       <BehatRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
       <tasks />
-      <arguments />
+      <pass-parent-env-vars>false</pass-parent-env-vars>
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
-      <scripts />
-      <node-interpreter value="project" />
-      <envs />
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
-    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory />
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui />
-      <extra-mocha-options />
-      <test-kind>DIRECTORY</test-kind>
-      <test-directory />
-      <recursive>false</recursive>
-      <method />
-    </configuration>
+    <list size="0" />
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
-  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -446,7 +462,6 @@
       <changelist id="c8642130-851e-4363-bbcb-754a308c2373" name="Default" comment="" />
       <created>1470642715826</created>
       <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
       <updated>1470642715826</updated>
       <workItem from="1470642716967" duration="676000" />
       <workItem from="1470650477904" duration="11958000" />
@@ -461,45 +476,49 @@
     <option name="totallyTimeSpent" value="62900000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2647504" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32724902" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.264375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32724902" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26096824" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32724902" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.264375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -513,616 +532,94 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/ukit-goods/ukit-goods.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
-          <caret line="76" column="46" selection-start-line="76" selection-start-column="46" selection-end-line="76" selection-end-column="46" />
-          <folding>
-            <element signature="e#6#208#0#PHP" expanded="true" />
-            <element signature="n#ukit_goods_activation#0;n#!!top" expanded="false" />
-            <element signature="n#ukit_goods_deactivation#0;n#!!top" expanded="false" />
-            <element signature="n#ukit_add_admin_huk#0;n#!!top" expanded="false" />
-            <element signature="n#ukit_create_product#0;n#!!top" expanded="false" />
-            <element signature="n#ukit_update_product#0;n#!!top" expanded="false" />
-            <element signature="n#ukit_delete_costumer_order#0;n#!!top" expanded="false" />
-            <element signature="n#ukit_get_post_data#0;n#!!top" expanded="false" />
-            <element signature="n#ukit_create_admin_page#0;n#!!top" expanded="false" />
-            <element signature="n#ukit_create_costumer_table#0;n#!!top" expanded="false" />
-            <element signature="n#ukit_form_of_product#0;n#!!top" expanded="false" />
-            <element signature="n#ukit_save_product_prise#0;n#!!top" expanded="false" />
-            <element signature="n#ukit_admin_page_js#0;n#!!top" expanded="false" />
-            <element signature="n#ukit_get_product_prise#0;n#!!top" expanded="false" />
-            <element signature="n#get_data_from_internet#0;n#!!top" expanded="false" />
-            <marker date="1470839266325" expanded="true" signature="788:1125" ph="CREATE TABLE... wp_ukit_costomers" />
-            <marker date="1470839266325" expanded="true" signature="1157:1576" ph="CREATE TABLE... wp_ukit_orders" />
-            <marker date="1470839266325" expanded="true" signature="1608:1779" ph="CREATE TABLE... wp_ukit_products" />
-            <marker date="1470839266325" expanded="true" signature="1867:1892" ph="DROP TABLE w... " />
-            <marker date="1470839266325" expanded="true" signature="1923:1951" ph="DROP TABLE w... " />
-            <marker date="1470839266325" expanded="true" signature="1982:2009" ph="DROP TABLE w... " />
-            <marker date="1470839266325" expanded="true" signature="2470:2540" ph="SELECT produ... wp_ukit_products" />
-            <marker date="1470839266325" expanded="true" signature="2968:3040" ph="INSERT INTO wp_ukit_products... " />
-            <marker date="1470839266325" expanded="true" signature="4120:4220" ph="INSERT INTO wp_ukit_costomers... " />
-            <marker date="1470839266325" expanded="true" signature="4535:4644" ph="INSERT INTO wp_ukit_orders... " />
-            <marker date="1470839266325" expanded="true" signature="5136:5167" ph="SELECT * FRO... wp_ukit_costomers" />
-            <marker date="1470839266325" expanded="true" signature="5529:5560" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="5559:5560" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="5698:5792" ph="SELECT * FRO... wp_ukit_orders" />
-            <marker date="1470839266325" expanded="true" signature="5915:6910" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="5981:6463" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="6036:6436" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="6530:6910" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="6576:6910" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="6634:6910" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="6663:6859" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="6689:6829" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="6888:6910" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="7122:7528" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="7355:7501" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="8091:8121" ph="SELECT * FRO... wp_ukit_products" />
-            <marker date="1470839266325" expanded="true" signature="8194:8271" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="8235:8271" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="8236:8271" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="8237:8254" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="9132:9945" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="9172:9484" ph="{...}" />
-            <marker date="1470839266325" expanded="true" signature="9265:9476" ph="{...}" />
-            <marker date="1470839266325" expanded="true" signature="9401:9471" ph="{...}" />
-            <marker date="1470839266325" expanded="true" signature="9541:9920" ph="{...}" />
-            <marker date="1470839266325" expanded="true" signature="9701:9912" ph="{...}" />
-            <marker date="1470839266325" expanded="true" signature="9850:9907" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/products.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/ukit-goods/ukit-goods.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#208#0#PHP" expanded="true" />
-            <element signature="n#ukit_goods_activation#0;n#!!top" expanded="false" />
-            <element signature="n#ukit_goods_deactivation#0;n#!!top" expanded="false" />
-            <element signature="n#ukit_add_admin_huk#0;n#!!top" expanded="false" />
-            <element signature="n#ukit_create_product#0;n#!!top" expanded="false" />
-            <element signature="n#ukit_update_product#0;n#!!top" expanded="false" />
-            <element signature="n#ukit_delete_costumer_order#0;n#!!top" expanded="false" />
-            <element signature="n#ukit_get_post_data#0;n#!!top" expanded="false" />
-            <element signature="n#ukit_create_admin_page#0;n#!!top" expanded="false" />
-            <element signature="n#ukit_create_costumer_table#0;n#!!top" expanded="false" />
-            <element signature="n#ukit_form_of_product#0;n#!!top" expanded="false" />
-            <element signature="n#ukit_save_product_prise#0;n#!!top" expanded="false" />
-            <element signature="n#ukit_admin_page_js#0;n#!!top" expanded="false" />
-            <element signature="n#ukit_get_product_prise#0;n#!!top" expanded="false" />
-            <element signature="n#get_data_from_internet#0;n#!!top" expanded="false" />
-            <marker date="1470839266325" expanded="true" signature="788:1125" ph="CREATE TABLE... wp_ukit_costomers" />
-            <marker date="1470839266325" expanded="true" signature="1157:1576" ph="CREATE TABLE... wp_ukit_orders" />
-            <marker date="1470839266325" expanded="true" signature="1608:1779" ph="CREATE TABLE... wp_ukit_products" />
-            <marker date="1470839266325" expanded="true" signature="1867:1892" ph="DROP TABLE w... " />
-            <marker date="1470839266325" expanded="true" signature="1923:1951" ph="DROP TABLE w... " />
-            <marker date="1470839266325" expanded="true" signature="1982:2009" ph="DROP TABLE w... " />
-            <marker date="1470839266325" expanded="true" signature="2470:2540" ph="SELECT produ... wp_ukit_products" />
-            <marker date="1470839266325" expanded="true" signature="2968:3040" ph="INSERT INTO wp_ukit_products... " />
-            <marker date="1470839266325" expanded="true" signature="4120:4220" ph="INSERT INTO wp_ukit_costomers... " />
-            <marker date="1470839266325" expanded="true" signature="4535:4644" ph="INSERT INTO wp_ukit_orders... " />
-            <marker date="1470839266325" expanded="true" signature="5136:5167" ph="SELECT * FRO... wp_ukit_costomers" />
-            <marker date="1470839266325" expanded="true" signature="5529:5560" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="5559:5560" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="5698:5792" ph="SELECT * FRO... wp_ukit_orders" />
-            <marker date="1470839266325" expanded="true" signature="5915:6910" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="5981:6463" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="6036:6436" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="6530:6910" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="6576:6910" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="6634:6910" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="6663:6859" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="6689:6829" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="6888:6910" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="7122:7528" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="7355:7501" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="8091:8121" ph="SELECT * FRO... wp_ukit_products" />
-            <marker date="1470839266325" expanded="true" signature="8194:8271" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="8235:8271" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="8236:8271" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="8237:8254" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="9132:9945" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="9172:9484" ph="{...}" />
-            <marker date="1470839266325" expanded="true" signature="9265:9476" ph="{...}" />
-            <marker date="1470839266325" expanded="true" signature="9401:9471" ph="{...}" />
-            <marker date="1470839266325" expanded="true" signature="9541:9920" ph="{...}" />
-            <marker date="1470839266325" expanded="true" signature="9701:9912" ph="{...}" />
-            <marker date="1470839266325" expanded="true" signature="9850:9907" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/simpler/css/font-awesome.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="61" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/js/basketLogik.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="100" column="22" selection-start-line="100" selection-start-column="22" selection-end-line="100" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/ukit-goods/ukit-goods.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#208#0#PHP" expanded="true" />
-            <element signature="n#ukit_goods_activation#0;n#!!top" expanded="false" />
-            <element signature="n#ukit_goods_deactivation#0;n#!!top" expanded="false" />
-            <element signature="n#ukit_add_admin_huk#0;n#!!top" expanded="false" />
-            <element signature="n#ukit_create_product#0;n#!!top" expanded="false" />
-            <element signature="n#ukit_update_product#0;n#!!top" expanded="false" />
-            <element signature="n#ukit_delete_costumer_order#0;n#!!top" expanded="false" />
-            <element signature="n#ukit_get_post_data#0;n#!!top" expanded="false" />
-            <element signature="n#ukit_create_admin_page#0;n#!!top" expanded="false" />
-            <element signature="n#ukit_create_costumer_table#0;n#!!top" expanded="false" />
-            <element signature="n#ukit_form_of_product#0;n#!!top" expanded="false" />
-            <element signature="n#ukit_save_product_prise#0;n#!!top" expanded="false" />
-            <element signature="n#ukit_admin_page_js#0;n#!!top" expanded="false" />
-            <element signature="n#ukit_get_product_prise#0;n#!!top" expanded="false" />
-            <element signature="n#get_data_from_internet#0;n#!!top" expanded="false" />
-            <marker date="1470839266325" expanded="true" signature="788:1125" ph="CREATE TABLE... wp_ukit_costomers" />
-            <marker date="1470839266325" expanded="true" signature="1157:1576" ph="CREATE TABLE... wp_ukit_orders" />
-            <marker date="1470839266325" expanded="true" signature="1608:1779" ph="CREATE TABLE... wp_ukit_products" />
-            <marker date="1470839266325" expanded="true" signature="1867:1892" ph="DROP TABLE w... " />
-            <marker date="1470839266325" expanded="true" signature="1923:1951" ph="DROP TABLE w... " />
-            <marker date="1470839266325" expanded="true" signature="1982:2009" ph="DROP TABLE w... " />
-            <marker date="1470839266325" expanded="true" signature="2470:2540" ph="SELECT produ... wp_ukit_products" />
-            <marker date="1470839266325" expanded="true" signature="2968:3040" ph="INSERT INTO wp_ukit_products... " />
-            <marker date="1470839266325" expanded="true" signature="4120:4220" ph="INSERT INTO wp_ukit_costomers... " />
-            <marker date="1470839266325" expanded="true" signature="4535:4644" ph="INSERT INTO wp_ukit_orders... " />
-            <marker date="1470839266325" expanded="true" signature="5136:5167" ph="SELECT * FRO... wp_ukit_costomers" />
-            <marker date="1470839266325" expanded="true" signature="5529:5560" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="5559:5560" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="5698:5792" ph="SELECT * FRO... wp_ukit_orders" />
-            <marker date="1470839266325" expanded="true" signature="5915:6910" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="5981:6463" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="6036:6436" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="6530:6910" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="6576:6910" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="6634:6910" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="6663:6859" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="6689:6829" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="6888:6910" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="7122:7528" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="7355:7501" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="8091:8121" ph="SELECT * FRO... wp_ukit_products" />
-            <marker date="1470839266325" expanded="true" signature="8194:8271" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="8235:8271" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="8236:8271" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="8237:8254" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="9132:9945" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="9172:9484" ph="{...}" />
-            <marker date="1470839266325" expanded="true" signature="9265:9476" ph="{...}" />
-            <marker date="1470839266325" expanded="true" signature="9401:9471" ph="{...}" />
-            <marker date="1470839266325" expanded="true" signature="9541:9920" ph="{...}" />
-            <marker date="1470839266325" expanded="true" signature="9701:9912" ph="{...}" />
-            <marker date="1470839266325" expanded="true" signature="9850:9907" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/simpler/css/font-awesome.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="61" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/js/basketLogik.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1700">
-          <caret line="100" column="22" selection-start-line="100" selection-start-column="22" selection-end-line="100" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/ukit-goods/ukit-goods.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#208#0#PHP" expanded="true" />
-            <element signature="n#ukit_goods_activation#0;n#!!top" expanded="false" />
-            <element signature="n#ukit_goods_deactivation#0;n#!!top" expanded="false" />
-            <element signature="n#ukit_add_admin_huk#0;n#!!top" expanded="false" />
-            <element signature="n#ukit_create_product#0;n#!!top" expanded="false" />
-            <element signature="n#ukit_update_product#0;n#!!top" expanded="false" />
-            <element signature="n#ukit_delete_costumer_order#0;n#!!top" expanded="false" />
-            <element signature="n#ukit_get_post_data#0;n#!!top" expanded="false" />
-            <element signature="n#ukit_create_admin_page#0;n#!!top" expanded="false" />
-            <element signature="n#ukit_create_costumer_table#0;n#!!top" expanded="false" />
-            <element signature="n#ukit_form_of_product#0;n#!!top" expanded="false" />
-            <element signature="n#ukit_save_product_prise#0;n#!!top" expanded="false" />
-            <element signature="n#ukit_admin_page_js#0;n#!!top" expanded="false" />
-            <element signature="n#ukit_get_product_prise#0;n#!!top" expanded="false" />
-            <element signature="n#get_data_from_internet#0;n#!!top" expanded="false" />
-            <marker date="1470839266325" expanded="true" signature="788:1125" ph="CREATE TABLE... wp_ukit_costomers" />
-            <marker date="1470839266325" expanded="true" signature="1157:1576" ph="CREATE TABLE... wp_ukit_orders" />
-            <marker date="1470839266325" expanded="true" signature="1608:1779" ph="CREATE TABLE... wp_ukit_products" />
-            <marker date="1470839266325" expanded="true" signature="1867:1892" ph="DROP TABLE w... " />
-            <marker date="1470839266325" expanded="true" signature="1923:1951" ph="DROP TABLE w... " />
-            <marker date="1470839266325" expanded="true" signature="1982:2009" ph="DROP TABLE w... " />
-            <marker date="1470839266325" expanded="true" signature="2470:2540" ph="SELECT produ... wp_ukit_products" />
-            <marker date="1470839266325" expanded="true" signature="2968:3040" ph="INSERT INTO wp_ukit_products... " />
-            <marker date="1470839266325" expanded="true" signature="4120:4220" ph="INSERT INTO wp_ukit_costomers... " />
-            <marker date="1470839266325" expanded="true" signature="4535:4644" ph="INSERT INTO wp_ukit_orders... " />
-            <marker date="1470839266325" expanded="true" signature="5136:5167" ph="SELECT * FRO... wp_ukit_costomers" />
-            <marker date="1470839266325" expanded="true" signature="5529:5560" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="5559:5560" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="5698:5792" ph="SELECT * FRO... wp_ukit_orders" />
-            <marker date="1470839266325" expanded="true" signature="5915:6910" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="5981:6463" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="6036:6436" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="6530:6910" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="6576:6910" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="6634:6910" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="6663:6859" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="6689:6829" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="6888:6910" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="7122:7528" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="7355:7501" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="8091:8121" ph="SELECT * FRO... wp_ukit_products" />
-            <marker date="1470839266325" expanded="true" signature="8194:8271" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="8235:8271" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="8236:8271" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="8237:8254" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="9132:9945" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="9172:9484" ph="{...}" />
-            <marker date="1470839266325" expanded="true" signature="9265:9476" ph="{...}" />
-            <marker date="1470839266325" expanded="true" signature="9401:9471" ph="{...}" />
-            <marker date="1470839266325" expanded="true" signature="9541:9920" ph="{...}" />
-            <marker date="1470839266325" expanded="true" signature="9701:9912" ph="{...}" />
-            <marker date="1470839266325" expanded="true" signature="9850:9907" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/css/main.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8755">
-          <caret line="515" column="16" selection-start-line="515" selection-start-column="16" selection-end-line="515" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="114" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="8619">
+          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/js/productID.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" column="42" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/products.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4692">
-          <caret line="276" column="0" selection-start-line="276" selection-start-column="0" selection-end-line="276" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/ukit-goods/js/jquery-1.11.2.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/basket.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="75" column="68" selection-start-line="75" selection-start-column="25" selection-end-line="75" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/simpler/css/font-awesome.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-1/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2108">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-1/breadcrumb-style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/css/style-admin.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="47" column="18" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="80" column="18" selection-start-line="80" selection-start-column="18" selection-end-line="80" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/js/basketLogik.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/past-products.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4233">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/css/titles.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-829">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/css/less-file/modal-order.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/js/logikOrderProduct.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/css/media.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/ukit-goods/ukit-goods.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
+        <state vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="1734">
           <caret line="76" column="46" selection-start-line="76" selection-start-column="46" selection-end-line="76" selection-end-column="46" />
           <folding>
-            <element signature="e#6#208#0#PHP" expanded="true" />
-            <element signature="n#ukit_goods_activation#0;n#!!top" expanded="false" />
-            <element signature="n#ukit_goods_deactivation#0;n#!!top" expanded="false" />
-            <element signature="n#ukit_add_admin_huk#0;n#!!top" expanded="false" />
             <element signature="n#ukit_create_product#0;n#!!top" expanded="false" />
             <element signature="n#ukit_update_product#0;n#!!top" expanded="false" />
+            <element signature="n#ukit_delete_product#0;n#!!top" expanded="false" />
             <element signature="n#ukit_delete_costumer_order#0;n#!!top" expanded="false" />
             <element signature="n#ukit_get_post_data#0;n#!!top" expanded="false" />
             <element signature="n#ukit_create_admin_page#0;n#!!top" expanded="false" />
             <element signature="n#ukit_create_costumer_table#0;n#!!top" expanded="false" />
-            <element signature="n#ukit_form_of_product#0;n#!!top" expanded="false" />
             <element signature="n#ukit_save_product_prise#0;n#!!top" expanded="false" />
             <element signature="n#ukit_admin_page_js#0;n#!!top" expanded="false" />
             <element signature="n#ukit_get_product_prise#0;n#!!top" expanded="false" />
             <element signature="n#get_data_from_internet#0;n#!!top" expanded="false" />
-            <marker date="1470839266325" expanded="true" signature="788:1125" ph="CREATE TABLE... wp_ukit_costomers" />
-            <marker date="1470839266325" expanded="true" signature="1157:1576" ph="CREATE TABLE... wp_ukit_orders" />
-            <marker date="1470839266325" expanded="true" signature="1608:1779" ph="CREATE TABLE... wp_ukit_products" />
-            <marker date="1470839266325" expanded="true" signature="1867:1892" ph="DROP TABLE w... " />
-            <marker date="1470839266325" expanded="true" signature="1923:1951" ph="DROP TABLE w... " />
-            <marker date="1470839266325" expanded="true" signature="1982:2009" ph="DROP TABLE w... " />
-            <marker date="1470839266325" expanded="true" signature="2470:2540" ph="SELECT produ... wp_ukit_products" />
-            <marker date="1470839266325" expanded="true" signature="2968:3040" ph="INSERT INTO wp_ukit_products... " />
-            <marker date="1470839266325" expanded="true" signature="4120:4220" ph="INSERT INTO wp_ukit_costomers... " />
-            <marker date="1470839266325" expanded="true" signature="4535:4644" ph="INSERT INTO wp_ukit_orders... " />
-            <marker date="1470839266325" expanded="true" signature="5136:5167" ph="SELECT * FRO... wp_ukit_costomers" />
-            <marker date="1470839266325" expanded="true" signature="5529:5560" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="5559:5560" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="5698:5792" ph="SELECT * FRO... wp_ukit_orders" />
-            <marker date="1470839266325" expanded="true" signature="5915:6910" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="5981:6463" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="6036:6436" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="6530:6910" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="6576:6910" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="6634:6910" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="6663:6859" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="6689:6829" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="6888:6910" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="7122:7528" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="7355:7501" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="8091:8121" ph="SELECT * FRO... wp_ukit_products" />
-            <marker date="1470839266325" expanded="true" signature="8194:8271" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="8235:8271" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="8236:8271" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="8237:8254" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="9132:9945" ph="..." />
-            <marker date="1470839266325" expanded="true" signature="9172:9484" ph="{...}" />
-            <marker date="1470839266325" expanded="true" signature="9265:9476" ph="{...}" />
-            <marker date="1470839266325" expanded="true" signature="9401:9471" ph="{...}" />
-            <marker date="1470839266325" expanded="true" signature="9541:9920" ph="{...}" />
-            <marker date="1470839266325" expanded="true" signature="9701:9912" ph="{...}" />
-            <marker date="1470839266325" expanded="true" signature="9850:9907" ph="{...}" />
+            <marker date="1471013029872" expanded="true" signature="788:1125" placeholder="CREATE TABLE..wp_ukit_costomers..." />
+            <marker date="1471013029872" expanded="true" signature="1157:1576" placeholder="CREATE TABLE..wp_ukit_orders..." />
+            <marker date="1471013029872" expanded="true" signature="1608:1779" placeholder="CREATE TABLE..wp_ukit_products..." />
+            <marker date="1471013029872" expanded="true" signature="1867:1892" placeholder="DROP TABLE w..." />
+            <marker date="1471013029872" expanded="true" signature="1923:1951" placeholder="DROP TABLE w..." />
+            <marker date="1471013029872" expanded="true" signature="1982:2009" placeholder="DROP TABLE w..." />
+            <marker date="1471013029872" expanded="true" signature="2470:2540" placeholder="SELECT produ..wp_ukit_products..." />
+            <marker date="1471013029872" expanded="true" signature="2968:3040" placeholder="INSERT INTO ..." />
+            <marker date="1471013029872" expanded="true" signature="4120:4220" placeholder="INSERT INTO ..." />
+            <marker date="1471013029872" expanded="true" signature="4535:4644" placeholder="INSERT INTO ..." />
+            <marker date="1471013029872" expanded="true" signature="5136:5167" placeholder="SELECT * FRO..wp_ukit_costomers..." />
+            <marker date="1471013029872" expanded="true" signature="5529:5560" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="5698:5792" placeholder="SELECT * FRO..wp_ukit_orders..." />
+            <marker date="1471013029872" expanded="true" signature="5915:6910" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="5981:6463" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="6036:6436" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="6530:6910" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="6576:6910" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="6634:6910" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="6663:6859" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="6689:6829" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="6888:6910" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="7109:7496" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="7323:7469" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="8056:8086" placeholder="SELECT * FRO..wp_ukit_products..." />
+            <marker date="1471013029872" expanded="true" signature="8159:8236" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="8200:8236" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="9105:9888" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="9145:9450" placeholder="{...}" />
+            <marker date="1471013029872" expanded="true" signature="9235:9442" placeholder="{&quot;url&quot;: '/'...}" />
+            <marker date="1471013029872" expanded="true" signature="9367:9437" placeholder="{...}" />
+            <marker date="1471013029872" expanded="true" signature="9499:9871" placeholder="{...}" />
+            <marker date="1471013029872" expanded="true" signature="9656:9863" placeholder="{&quot;url&quot;: '/'...}" />
+            <marker date="1471013029872" expanded="true" signature="9801:9858" placeholder="{...}" />
+            <marker date="1471013029872" expanded="true" signature="10222:10321" placeholder="SELECT produ..wp_ukit_products..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/products.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="4743">
           <caret line="5" column="17" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/css/less-file/product.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="186" column="0" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/css/less-file/product.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="786">
-          <caret line="229" column="0" selection-start-line="229" selection-start-column="0" selection-end-line="229" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/js/productID.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-includes/admin-bar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="871" column="1" selection-start-line="871" selection-start-column="1" selection-end-line="871" selection-end-column="1" />
+          <folding>
+            <element signature="tag#div#2;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
+        <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="2295">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
@@ -1130,13 +627,603 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/css/main.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="530" column="0" selection-start-line="530" selection-start-column="0" selection-end-line="530" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8619">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/ukit-goods/ukit-goods.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="76" column="46" selection-start-line="76" selection-start-column="46" selection-end-line="76" selection-end-column="46" />
           <folding>
-            <element signature="e#8811#9290#0" expanded="false" />
+            <element signature="n#ukit_create_product#0;n#!!top" expanded="false" />
+            <element signature="n#ukit_update_product#0;n#!!top" expanded="false" />
+            <element signature="n#ukit_delete_product#0;n#!!top" expanded="false" />
+            <element signature="n#ukit_delete_costumer_order#0;n#!!top" expanded="false" />
+            <element signature="n#ukit_get_post_data#0;n#!!top" expanded="false" />
+            <element signature="n#ukit_create_admin_page#0;n#!!top" expanded="false" />
+            <element signature="n#ukit_create_costumer_table#0;n#!!top" expanded="false" />
+            <element signature="n#ukit_save_product_prise#0;n#!!top" expanded="false" />
+            <element signature="n#ukit_admin_page_js#0;n#!!top" expanded="false" />
+            <element signature="n#ukit_get_product_prise#0;n#!!top" expanded="false" />
+            <element signature="n#get_data_from_internet#0;n#!!top" expanded="false" />
+            <marker date="1471013029872" expanded="true" signature="788:1125" placeholder="CREATE TABLE..wp_ukit_costomers..." />
+            <marker date="1471013029872" expanded="true" signature="1157:1576" placeholder="CREATE TABLE..wp_ukit_orders..." />
+            <marker date="1471013029872" expanded="true" signature="1608:1779" placeholder="CREATE TABLE..wp_ukit_products..." />
+            <marker date="1471013029872" expanded="true" signature="1867:1892" placeholder="DROP TABLE w..." />
+            <marker date="1471013029872" expanded="true" signature="1923:1951" placeholder="DROP TABLE w..." />
+            <marker date="1471013029872" expanded="true" signature="1982:2009" placeholder="DROP TABLE w..." />
+            <marker date="1471013029872" expanded="true" signature="2470:2540" placeholder="SELECT produ..wp_ukit_products..." />
+            <marker date="1471013029872" expanded="true" signature="2968:3040" placeholder="INSERT INTO ..." />
+            <marker date="1471013029872" expanded="true" signature="4120:4220" placeholder="INSERT INTO ..." />
+            <marker date="1471013029872" expanded="true" signature="4535:4644" placeholder="INSERT INTO ..." />
+            <marker date="1471013029872" expanded="true" signature="5136:5167" placeholder="SELECT * FRO..wp_ukit_costomers..." />
+            <marker date="1471013029872" expanded="true" signature="5529:5560" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="5698:5792" placeholder="SELECT * FRO..wp_ukit_orders..." />
+            <marker date="1471013029872" expanded="true" signature="5915:6910" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="5981:6463" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="6036:6436" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="6530:6910" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="6576:6910" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="6634:6910" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="6663:6859" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="6689:6829" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="6888:6910" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="7109:7496" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="7323:7469" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="8056:8086" placeholder="SELECT * FRO..wp_ukit_products..." />
+            <marker date="1471013029872" expanded="true" signature="8159:8236" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="8200:8236" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="9105:9888" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="9145:9450" placeholder="{...}" />
+            <marker date="1471013029872" expanded="true" signature="9235:9442" placeholder="{&quot;url&quot;: '/'...}" />
+            <marker date="1471013029872" expanded="true" signature="9367:9437" placeholder="{...}" />
+            <marker date="1471013029872" expanded="true" signature="9499:9871" placeholder="{...}" />
+            <marker date="1471013029872" expanded="true" signature="9656:9863" placeholder="{&quot;url&quot;: '/'...}" />
+            <marker date="1471013029872" expanded="true" signature="9801:9858" placeholder="{...}" />
+            <marker date="1471013029872" expanded="true" signature="10222:10321" placeholder="SELECT produ..wp_ukit_products..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/products.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="tag#div#2;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/ukit-goods/ukit-goods.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#ukit_create_product#0;n#!!top" expanded="false" />
+            <element signature="n#ukit_update_product#0;n#!!top" expanded="false" />
+            <element signature="n#ukit_delete_product#0;n#!!top" expanded="false" />
+            <element signature="n#ukit_delete_costumer_order#0;n#!!top" expanded="false" />
+            <element signature="n#ukit_get_post_data#0;n#!!top" expanded="false" />
+            <element signature="n#ukit_create_admin_page#0;n#!!top" expanded="false" />
+            <element signature="n#ukit_create_costumer_table#0;n#!!top" expanded="false" />
+            <element signature="n#ukit_save_product_prise#0;n#!!top" expanded="false" />
+            <element signature="n#ukit_admin_page_js#0;n#!!top" expanded="false" />
+            <element signature="n#ukit_get_product_prise#0;n#!!top" expanded="false" />
+            <element signature="n#get_data_from_internet#0;n#!!top" expanded="false" />
+            <marker date="1471013029872" expanded="true" signature="788:1125" placeholder="CREATE TABLE..wp_ukit_costomers..." />
+            <marker date="1471013029872" expanded="true" signature="1157:1576" placeholder="CREATE TABLE..wp_ukit_orders..." />
+            <marker date="1471013029872" expanded="true" signature="1608:1779" placeholder="CREATE TABLE..wp_ukit_products..." />
+            <marker date="1471013029872" expanded="true" signature="1867:1892" placeholder="DROP TABLE w..." />
+            <marker date="1471013029872" expanded="true" signature="1923:1951" placeholder="DROP TABLE w..." />
+            <marker date="1471013029872" expanded="true" signature="1982:2009" placeholder="DROP TABLE w..." />
+            <marker date="1471013029872" expanded="true" signature="2470:2540" placeholder="SELECT produ..wp_ukit_products..." />
+            <marker date="1471013029872" expanded="true" signature="2968:3040" placeholder="INSERT INTO ..." />
+            <marker date="1471013029872" expanded="true" signature="4120:4220" placeholder="INSERT INTO ..." />
+            <marker date="1471013029872" expanded="true" signature="4535:4644" placeholder="INSERT INTO ..." />
+            <marker date="1471013029872" expanded="true" signature="5136:5167" placeholder="SELECT * FRO..wp_ukit_costomers..." />
+            <marker date="1471013029872" expanded="true" signature="5529:5560" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="5698:5792" placeholder="SELECT * FRO..wp_ukit_orders..." />
+            <marker date="1471013029872" expanded="true" signature="5915:6910" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="5981:6463" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="6036:6436" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="6530:6910" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="6576:6910" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="6634:6910" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="6663:6859" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="6689:6829" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="6888:6910" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="7109:7496" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="7323:7469" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="8056:8086" placeholder="SELECT * FRO..wp_ukit_products..." />
+            <marker date="1471013029872" expanded="true" signature="8159:8236" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="8200:8236" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="9105:9888" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="9145:9450" placeholder="{...}" />
+            <marker date="1471013029872" expanded="true" signature="9235:9442" placeholder="{&quot;url&quot;: '/'...}" />
+            <marker date="1471013029872" expanded="true" signature="9367:9437" placeholder="{...}" />
+            <marker date="1471013029872" expanded="true" signature="9499:9871" placeholder="{...}" />
+            <marker date="1471013029872" expanded="true" signature="9656:9863" placeholder="{&quot;url&quot;: '/'...}" />
+            <marker date="1471013029872" expanded="true" signature="9801:9858" placeholder="{...}" />
+            <marker date="1471013029872" expanded="true" signature="10222:10321" placeholder="SELECT produ..wp_ukit_products..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="38" column="61" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/js/basketLogik.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="100" column="22" selection-start-line="100" selection-start-column="22" selection-end-line="100" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/ukit-goods/ukit-goods.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#ukit_create_product#0;n#!!top" expanded="false" />
+            <element signature="n#ukit_update_product#0;n#!!top" expanded="false" />
+            <element signature="n#ukit_delete_product#0;n#!!top" expanded="false" />
+            <element signature="n#ukit_delete_costumer_order#0;n#!!top" expanded="false" />
+            <element signature="n#ukit_get_post_data#0;n#!!top" expanded="false" />
+            <element signature="n#ukit_create_admin_page#0;n#!!top" expanded="false" />
+            <element signature="n#ukit_create_costumer_table#0;n#!!top" expanded="false" />
+            <element signature="n#ukit_save_product_prise#0;n#!!top" expanded="false" />
+            <element signature="n#ukit_admin_page_js#0;n#!!top" expanded="false" />
+            <element signature="n#ukit_get_product_prise#0;n#!!top" expanded="false" />
+            <element signature="n#get_data_from_internet#0;n#!!top" expanded="false" />
+            <marker date="1471013029872" expanded="true" signature="788:1125" placeholder="CREATE TABLE..wp_ukit_costomers..." />
+            <marker date="1471013029872" expanded="true" signature="1157:1576" placeholder="CREATE TABLE..wp_ukit_orders..." />
+            <marker date="1471013029872" expanded="true" signature="1608:1779" placeholder="CREATE TABLE..wp_ukit_products..." />
+            <marker date="1471013029872" expanded="true" signature="1867:1892" placeholder="DROP TABLE w..." />
+            <marker date="1471013029872" expanded="true" signature="1923:1951" placeholder="DROP TABLE w..." />
+            <marker date="1471013029872" expanded="true" signature="1982:2009" placeholder="DROP TABLE w..." />
+            <marker date="1471013029872" expanded="true" signature="2470:2540" placeholder="SELECT produ..wp_ukit_products..." />
+            <marker date="1471013029872" expanded="true" signature="2968:3040" placeholder="INSERT INTO ..." />
+            <marker date="1471013029872" expanded="true" signature="4120:4220" placeholder="INSERT INTO ..." />
+            <marker date="1471013029872" expanded="true" signature="4535:4644" placeholder="INSERT INTO ..." />
+            <marker date="1471013029872" expanded="true" signature="5136:5167" placeholder="SELECT * FRO..wp_ukit_costomers..." />
+            <marker date="1471013029872" expanded="true" signature="5529:5560" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="5698:5792" placeholder="SELECT * FRO..wp_ukit_orders..." />
+            <marker date="1471013029872" expanded="true" signature="5915:6910" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="5981:6463" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="6036:6436" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="6530:6910" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="6576:6910" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="6634:6910" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="6663:6859" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="6689:6829" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="6888:6910" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="7109:7496" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="7323:7469" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="8056:8086" placeholder="SELECT * FRO..wp_ukit_products..." />
+            <marker date="1471013029872" expanded="true" signature="8159:8236" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="8200:8236" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="9105:9888" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="9145:9450" placeholder="{...}" />
+            <marker date="1471013029872" expanded="true" signature="9235:9442" placeholder="{&quot;url&quot;: '/'...}" />
+            <marker date="1471013029872" expanded="true" signature="9367:9437" placeholder="{...}" />
+            <marker date="1471013029872" expanded="true" signature="9499:9871" placeholder="{...}" />
+            <marker date="1471013029872" expanded="true" signature="9656:9863" placeholder="{&quot;url&quot;: '/'...}" />
+            <marker date="1471013029872" expanded="true" signature="9801:9858" placeholder="{...}" />
+            <marker date="1471013029872" expanded="true" signature="10222:10321" placeholder="SELECT produ..wp_ukit_products..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="38" column="61" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/js/basketLogik.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="100" column="22" selection-start-line="100" selection-start-column="22" selection-end-line="100" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/ukit-goods/ukit-goods.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#ukit_create_product#0;n#!!top" expanded="false" />
+            <element signature="n#ukit_update_product#0;n#!!top" expanded="false" />
+            <element signature="n#ukit_delete_product#0;n#!!top" expanded="false" />
+            <element signature="n#ukit_delete_costumer_order#0;n#!!top" expanded="false" />
+            <element signature="n#ukit_get_post_data#0;n#!!top" expanded="false" />
+            <element signature="n#ukit_create_admin_page#0;n#!!top" expanded="false" />
+            <element signature="n#ukit_create_costumer_table#0;n#!!top" expanded="false" />
+            <element signature="n#ukit_save_product_prise#0;n#!!top" expanded="false" />
+            <element signature="n#ukit_admin_page_js#0;n#!!top" expanded="false" />
+            <element signature="n#ukit_get_product_prise#0;n#!!top" expanded="false" />
+            <element signature="n#get_data_from_internet#0;n#!!top" expanded="false" />
+            <marker date="1471013029872" expanded="true" signature="788:1125" placeholder="CREATE TABLE..wp_ukit_costomers..." />
+            <marker date="1471013029872" expanded="true" signature="1157:1576" placeholder="CREATE TABLE..wp_ukit_orders..." />
+            <marker date="1471013029872" expanded="true" signature="1608:1779" placeholder="CREATE TABLE..wp_ukit_products..." />
+            <marker date="1471013029872" expanded="true" signature="1867:1892" placeholder="DROP TABLE w..." />
+            <marker date="1471013029872" expanded="true" signature="1923:1951" placeholder="DROP TABLE w..." />
+            <marker date="1471013029872" expanded="true" signature="1982:2009" placeholder="DROP TABLE w..." />
+            <marker date="1471013029872" expanded="true" signature="2470:2540" placeholder="SELECT produ..wp_ukit_products..." />
+            <marker date="1471013029872" expanded="true" signature="2968:3040" placeholder="INSERT INTO ..." />
+            <marker date="1471013029872" expanded="true" signature="4120:4220" placeholder="INSERT INTO ..." />
+            <marker date="1471013029872" expanded="true" signature="4535:4644" placeholder="INSERT INTO ..." />
+            <marker date="1471013029872" expanded="true" signature="5136:5167" placeholder="SELECT * FRO..wp_ukit_costomers..." />
+            <marker date="1471013029872" expanded="true" signature="5529:5560" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="5698:5792" placeholder="SELECT * FRO..wp_ukit_orders..." />
+            <marker date="1471013029872" expanded="true" signature="5915:6910" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="5981:6463" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="6036:6436" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="6530:6910" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="6576:6910" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="6634:6910" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="6663:6859" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="6689:6829" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="6888:6910" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="7109:7496" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="7323:7469" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="8056:8086" placeholder="SELECT * FRO..wp_ukit_products..." />
+            <marker date="1471013029872" expanded="true" signature="8159:8236" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="8200:8236" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="9105:9888" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="9145:9450" placeholder="{...}" />
+            <marker date="1471013029872" expanded="true" signature="9235:9442" placeholder="{&quot;url&quot;: '/'...}" />
+            <marker date="1471013029872" expanded="true" signature="9367:9437" placeholder="{...}" />
+            <marker date="1471013029872" expanded="true" signature="9499:9871" placeholder="{...}" />
+            <marker date="1471013029872" expanded="true" signature="9656:9863" placeholder="{&quot;url&quot;: '/'...}" />
+            <marker date="1471013029872" expanded="true" signature="9801:9858" placeholder="{...}" />
+            <marker date="1471013029872" expanded="true" signature="10222:10321" placeholder="SELECT produ..wp_ukit_products..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/css/main.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="515" column="16" selection-start-line="515" selection-start-column="16" selection-end-line="515" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="114" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/js/productID.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="51" column="42" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/products.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="276" column="0" selection-start-line="276" selection-start-column="0" selection-end-line="276" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/ukit-goods/js/jquery-1.11.2.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/css/style-admin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="47" column="18" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/past-products.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/css/less-file/modal-order.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/css/media.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/admin-bar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="871" column="1" selection-start-line="871" selection-start-column="1" selection-end-line="871" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="442">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentysixteen/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.56285715" vertical-offset="6151" max-vertical-offset="6851">
+          <caret line="409" column="28" selection-start-line="409" selection-start-column="28" selection-end-line="409" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/loop.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.94714284" vertical-offset="663" max-vertical-offset="2057">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="323">
+          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/css/less-file/product.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="704" max-vertical-offset="3281">
+          <caret line="68" column="4" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/js/checkingUser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/js/basketLogik.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.55209744" vertical-offset="0" max-vertical-offset="935">
+          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.88729507" vertical-offset="1046" max-vertical-offset="2108">
+          <caret line="97" column="52" selection-start-line="97" selection-start-column="52" selection-end-line="97" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/js/productID.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/js/logikOrderProduct.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0963115" vertical-offset="196" max-vertical-offset="935">
+          <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+          <folding>
+            <element signature="n#!!block;n#outputSelectPrise#0" expanded="false" />
+            <element signature="n#!!block;n#saveDataInLocalStorage#0" expanded="false" />
+            <element signature="n#!!block;n#SaveDataInLocalStage#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51521736" vertical-offset="3962" max-vertical-offset="13413">
+          <caret line="247" column="0" selection-start-line="248" selection-start-column="0" selection-end-line="248" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/ukit-goods/ukit-goods.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-21.576923" vertical-offset="1513" max-vertical-offset="2533">
+          <caret line="260" column="114" selection-start-line="260" selection-start-column="114" selection-end-line="260" selection-end-column="114" />
+          <folding>
+            <element signature="n#ukit_create_product#0;n#!!top" expanded="false" />
+            <element signature="n#ukit_update_product#0;n#!!top" expanded="false" />
+            <element signature="n#ukit_delete_product#0;n#!!top" expanded="false" />
+            <element signature="n#ukit_delete_costumer_order#0;n#!!top" expanded="false" />
+            <element signature="n#ukit_get_post_data#0;n#!!top" expanded="false" />
+            <element signature="n#ukit_create_admin_page#0;n#!!top" expanded="false" />
+            <element signature="n#ukit_create_costumer_table#0;n#!!top" expanded="false" />
+            <element signature="n#ukit_save_product_prise#0;n#!!top" expanded="false" />
+            <element signature="n#ukit_admin_page_js#0;n#!!top" expanded="false" />
+            <element signature="n#ukit_get_product_prise#0;n#!!top" expanded="false" />
+            <element signature="n#get_data_from_internet#0;n#!!top" expanded="false" />
+            <marker date="1471013029872" expanded="true" signature="788:1125" placeholder="CREATE TABLE..wp_ukit_costomers..." />
+            <marker date="1471013029872" expanded="true" signature="1157:1576" placeholder="CREATE TABLE..wp_ukit_orders..." />
+            <marker date="1471013029872" expanded="true" signature="1608:1779" placeholder="CREATE TABLE..wp_ukit_products..." />
+            <marker date="1471013029872" expanded="true" signature="1867:1892" placeholder="DROP TABLE w..." />
+            <marker date="1471013029872" expanded="true" signature="1923:1951" placeholder="DROP TABLE w..." />
+            <marker date="1471013029872" expanded="true" signature="1982:2009" placeholder="DROP TABLE w..." />
+            <marker date="1471013029872" expanded="true" signature="2470:2540" placeholder="SELECT produ..wp_ukit_products..." />
+            <marker date="1471013029872" expanded="true" signature="2968:3040" placeholder="INSERT INTO ..." />
+            <marker date="1471013029872" expanded="true" signature="4120:4220" placeholder="INSERT INTO ..." />
+            <marker date="1471013029872" expanded="true" signature="4535:4644" placeholder="INSERT INTO ..." />
+            <marker date="1471013029872" expanded="true" signature="5136:5167" placeholder="SELECT * FRO..wp_ukit_costomers..." />
+            <marker date="1471013029872" expanded="true" signature="5529:5560" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="5698:5792" placeholder="SELECT * FRO..wp_ukit_orders..." />
+            <marker date="1471013029872" expanded="true" signature="5915:6910" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="5981:6463" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="6036:6436" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="6530:6910" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="6576:6910" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="6634:6910" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="6663:6859" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="6689:6829" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="6888:6910" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="7109:7496" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="7323:7469" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="8056:8086" placeholder="SELECT * FRO..wp_ukit_products..." />
+            <marker date="1471013029872" expanded="true" signature="8159:8236" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="8200:8236" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="9105:9888" placeholder="..." />
+            <marker date="1471013029872" expanded="true" signature="9145:9450" placeholder="{...}" />
+            <marker date="1471013029872" expanded="true" signature="9235:9442" placeholder="{&quot;url&quot;: '/'...}" />
+            <marker date="1471013029872" expanded="true" signature="9367:9437" placeholder="{...}" />
+            <marker date="1471013029872" expanded="true" signature="9499:9871" placeholder="{...}" />
+            <marker date="1471013029872" expanded="true" signature="9656:9863" placeholder="{&quot;url&quot;: '/'...}" />
+            <marker date="1471013029872" expanded="true" signature="9801:9858" placeholder="{...}" />
+            <marker date="1471013029872" expanded="true" signature="10222:10321" placeholder="SELECT produ..wp_ukit_products..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/products.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="70.61539" vertical-offset="2091" max-vertical-offset="3196">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding>
+            <element signature="tag#div#2;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/basket.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.1923075" vertical-offset="357" max-vertical-offset="1207">
+          <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+          <folding>
+            <element signature="tag#div#2;tag#div#0;tag#div#0;tag#div#0;tag#div#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/css/less-file/product.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.1764708" vertical-offset="2388" max-vertical-offset="3995">
+          <caret line="159" column="1" selection-start-line="159" selection-start-column="1" selection-end-line="159" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/css/less-file/modal-order.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7276888" vertical-offset="1008" max-vertical-offset="1751">
+          <caret line="78" column="1" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/goodtown/css/main.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45537758" vertical-offset="9270" max-vertical-offset="9724">
+          <caret line="557" column="23" selection-start-line="557" selection-start-column="23" selection-end-line="557" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
   </component>
 </project>
+

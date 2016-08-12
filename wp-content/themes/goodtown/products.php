@@ -2,6 +2,7 @@
 /* Template Name: Products */
 ?>
 
+
 <?php get_header(); ?>
 <div class="modal fade modal-order" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
@@ -84,8 +85,8 @@
     </div>
   </div>
 </div>
-  <div id="product-block">
-    <div class="container">
+  <div id="product-block" class="min-height" >
+    <div class="container ">
       <div class="row">
       <div class="col-xs-3 col-sm-3 col-md-3">
 
@@ -130,127 +131,38 @@
 
           </div>
       </div>
-
-
       <!-- KO-919 -->
-
           <div class="dobavki">
+
+              <?php
+              $category = get_category_by_slug('products');
+              $posts = get_posts( array('category' => $category->cat_ID));
+              foreach($posts as $post) {
+                  $my_post = get_post( $post->ID );
+              ?>
             <div class="product-block clearfix">
 
               <div class="img-block">
-                <!--<button type='button' onClick='getProductName("KO-919")'>Замовити</button>-->
-                <!--<button type='button' onClick='getMoreHeight() '>Збільшити</button>-->
-                <span> KO-909 </span>
-                <img src="/wp-content/themes/goodtown/img/botel.jpg" >
-              </div>
-              <div id="KO-919" class="text-block">
-                <h2>Кольмануюча добавка проти висолів</h2>
-                <h3>Використання:</h3>
-                <ul>
-                  <li>Для виробництва кольорових вібропресованих
-                    бетонних виробів - знижується ризик вапнякових
-                    відкладень (висолів)</li>
-                  <li>Для виробництва вібропресованих бетонів,
-                    бордюрів, плит, бруківки (може бути використана дляосновного або верхнього шару,
-                    або для обох одночасно)</li>
-                  <li> <strong>Дозування:</strong>0,3-0,8% (Рекомендовано 0,4-0,8%) від маси цементу.</li>
-                </ul>
-                <h3>Властивості:</h3>
-                <ul>
-                  <li>Покращує колір виробу.</li>
-                  <li> Збільшує цикли заморожування і відтавання.</li>
-                  <li>Дозволяє створювати додаткові рецептури бетону з
-                    урахуванням зменшення цементу за рахунок
-                    пластіфікуючого ефекту добавки.</li>
-                  <li>Полегшує процес вібропресування, а також прилипання вироби до штампу.</li>
-                  <li>Збільшує дисперсність цементних зерен, завдяки чому
-                    відбувається їх рівномірне змочування в бетонній суміші.</li>
-                  <li>Вводить мікропухирці повітря, за рахунок чого бетон легше розтікається по формі</li>
-                  <li>Дозволяє скоротити час вібрації за рахунок збільшення пластичності суміші</li>
-                  <li>Дозволяє зробити гладку і рівномірну поверхню завіброваного бетону.</li>
-                </ul>
-
-                <h3>Технічні данні:</h3>
-                <div class="table-block">
-
-                  <div class="row-block">
-                    <div class="cell-block">
-                      <strong>Основи:</strong>
-                    </div>
-                    <div class="cell-block">
-                      <label >модифіковані,жирні кислоти</label>
-                    </div>
-                  </div>
-
-                  <div class="row-block">
-                    <div class="cell-block">
-                      <strong>Колір:</strong>
-                    </div>
-                    <div class="cell-block">
-                      <label >прозорий зелений</label>
-                    </div>
-                  </div>
-
-                  <div class="row-block">
-                    <div class="cell-block">
-                      <strong>Плотність:</strong>
-                    </div>
-                    <div class="cell-block">
-                      <label >1,03 – 1,07 г/см</label>
-                    </div>
-                  </div>
-
-                  <div class="row-block">
-                    <div class="cell-block">
-                      <strong>Рівень p(H):</strong>
-                    </div>
-                    <div class="cell-block">
-                      <label >11,0 – 12,2</label>
-                    </div>
-                  </div>
-
-                  <div class="row-block">
-                    <div class="cell-block">
-                      <strong>Вміскість Хлоридів:</strong>
-                    </div>
-                    <div class="cell-block">
-                      <label >≤0,1%(безхлоридна добавка)</label>
-                    </div>
-                  </div>
-                </div>
-                <h3>Транспорт:</h3>
-                <p>Продукт транспортується і зберігається в оригінальній закритій упаковці при температурі від +5°
-                  до + 30 ° С. Захищати від морозу та прямих сонячних променів. Після тривалого періоду зберігання,
-                  продукт слід перемішати.</p>
-
-                <h3>Упаковка:</h3>
-                <ul>
-                  <li>Каністра:10кг</li>
-                  <li>Бочка:200кг</li>
-                  <li>Контейнер IBC:1000кг</li>
-                </ul>
-                <h3>Інструкція по застосуванню:</h3>
-                <p>Добавку слід додавати з водою, попередньо помішувати (суху) консистенцію.
-Час перемішування з добавкою триває до тих пір, поки консистенція не стане повністю однорідною
-                  і відповідає часу, попередніх випробувань на цій добавці. Бетон після того, як буде вийнятий  з форм,
-                  слід правильно зберігати, для набору проектної потужності</p>
-                <h3>Увага!</h3>
-                <p><strong>Детальна інформація про здоров'я, безпеки та екології містяться в Паспорті безпеки і на етикетках.
-                  Примітка:</strong> Не використовувати добавку для товарного бетону відповідно до PN-EN 206-1.
-                  Продукт призначений для використання тільки у виробництві вібропресованного і жорсткого бетону.</p>
-                <p><strong>Інформація включає в себе основні інструкції  використання продукту і не позбавляє  від
-                  відповідальності за работу у відповідності з правилами торгівлі і правил техніки безпеки.
-                  З випуском цього листа всі попередні дані стають  недійсними. Дата обновления: 2015.06.11/MO.
-                </strong></p>
+                <span> <?php echo $my_post->post_title;  ?> </span>
+                  <figure>
+                      <?php echo get_the_post_thumbnail($post->ID); ?>
+                  </figure>
 
               </div>
+                <?php echo $my_post->post_content; ?>
+
+
+
               <div class="button-block">
                 <button class="getProductName" data-toggle="modal" data-target=".modal-order" type='button'>Замовити</button>
                <!-- <button type='button' onClick='getMoreHeight("KO-919")'>Детальніше</button>-->
                 <button type='button' class="getMoreHight">Детальніше</button>
               </div>
         </div>
-      </div>
+              <?php }  ?>
+
+
+       </div>
 
       <!-- END.KO-919 -->
 

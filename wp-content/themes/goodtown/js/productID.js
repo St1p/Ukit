@@ -1,28 +1,4 @@
 
-//var getMore = function () {
-//   //
-//   // if($(".content").text() == "") {
-//   //$(".content").text(bigText);
-//   //     }
-//   // else{ $(".content").text(""); }
-//
-//    var el = document.getElementById("viz");
-//    el.style.cssText="visibility: hidden; display: none;";
-//
-//
-//};
-
-//var getPlastificator = function () {
-//    var plastificator = document.getElementById("plastificator");
-//
-//    plastificator.style.cssText="visibility: visible; display:block;";
-//
-//    var presentation = document.getElementById("presentation");
-//    presentation.style.cssText="visibility: hidden; display:none;";
-//};
-
-
-
 var productSelection = function(name) {
 
     var dobavki =  $('.dobavki');
@@ -36,65 +12,17 @@ var productSelection = function(name) {
 
 };
 
-//save nameOfProduct;
-$(document).ready(function(){
-    $('.getProductName').click(function(){
-        var nameOfProduct = $(this).parents().find('.img-block > span').text();
-   /*     localStorage.setItem('nameProduct',nameOfProduct);
-        localStorage.setItem('productPrice',25);*/
-
-        $.ajax({
-            url : 'getPriseFromInternet',
-            type: 'POST',
-            async: false,
-            data: {'getProductPrise' : nameOfProduct},
-
-            success: function (resultArray) {
-                var data = JSON.parse(resultArray);
-                if(!data.status) {
-                    alert("На даний товар ціна не встановленна");
-                }
-                    localStorage.setItem('nameProduct',nameOfProduct);
-                    localStorage.setItem('productPrice',data.prise);
-            }
-        });
-    });
-});
-
-/*var getProductName = function(name) {
-    var result;
-
-    localStorage.setItem('nameProduct',name);
-    localStorage.setItem('productPrice',25);
-
- /!*   $.ajax({
-        url : 'getPriseFromInternet',
-        type: 'GET',
-        async: false,
-
-
-        success: function (msg) {
-            result = '' + msg.text;
-            localStorage.setItem('nameProduct',name);
-            localStorage.setItem('productPrice',result);
-
-        }
-    });*!/
-
-/!*    return location.href="/orderProduct";*!/
-};*/
-
 //get More size for text-block
 $(document).ready(function(){
     $('.getMoreHight').click(function(){
-        var productBlockHeight = $(this).parents().find('.text-block ');
+        var productBlockHeight = $(this).parent().parent().find('.text-block ');
 
         if(productBlockHeight.css('height') != "314px") {
             //$('.product-block').css({'height':'320px'});
             productBlockHeight.animate({"height": "314px"},1000);
         }else {
 
-            productBlockHeight.animate({"height": "+=830px"},1000);
+            productBlockHeight.animate({"height": "+=900px"},1000);
         }
 
     });
