@@ -34,45 +34,33 @@
 					<div class="block-title">
 						<h2>Новини</h2>
 					</div>
+
+
+                    <?php
+                    $category = get_category_by_slug('news');
+                    $posts = get_posts( array('category' => $category->cat_ID));
+                    for($count = 0 ; $count < 2; $count++ ) {
+                        $newsPost = get_post( $posts[$count]->ID );
+                    
+                    ?>
 					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 ">
 						<div class="news-content">
 							<div class="news-img">
-								<img src="/wp-content/themes/goodtown/css/images/news-1.jpg">
+                                <?php echo $newsPost->ID;  ?>
 							</div>
 
 							<div class="context-bold header-bar">
-								<span>Новина 1 </span>
+								<span> <?php echo $newsPost->post_title;  ?> </span>
 							</div>
 
 							<div class="context-medium header-bar">
-                                <span>Quisque ut urna posuere, gravida nisl eu,
-                                    dictum diam. In hac habitasse platea dictumst.
-                                    Phasellus egestas dignissim tellus  vitae</span>
+                                <span><?php echo $newsPost->post_content; ?></span>
 							</div>
 
 						</div>
 					</div>
+                        <?php }  ?>
 
-					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 ">
-
-						<div class="news-content">
-
-							<div class="news-img">
-								<img src="/wp-content/themes/goodtown/css/images/news-2.jpg">
-							</div>
-
-							<div class="context-bold header-bar">
-								<span>Новина 1 </span>
-							</div>
-
-							<div class="context-medium header-bar">
-                                <span>Quisque ut urna posuere, gravida nisl eu,
-                                    dictum diam. In hac habitasse platea dictumst.
-                                    Phasellus egestas dignissim tellus  vitae</span>
-							</div>
-
-						</div>
-					</div>
 
 				</div>
 
